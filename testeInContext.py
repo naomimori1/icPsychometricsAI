@@ -32,20 +32,19 @@ def generate_prompt(item):
     return prompt_template.format(item=item)
 
 messages = []
-def query_model(prompt, messages):
 
+def query_model(prompt, messages):
     messages.append({
         'role': 'user',
         'content': prompt,
     })
-    response = ollama.chat(model='llama2:7b', messages=messages)
 
-    # Adicionar a resposta do modelo ao histórico
+    response = ollama.chat(model='llama2:7b', messages=messages)
+    
     messages.append({
         'role': 'assistant',
         'content': response['message']['content'],
-    })
-    
+    })    
     return response['message']['content']
 
 output_file = sys.argv[1]
@@ -58,7 +57,6 @@ with open(output_file, mode="w", newline="") as file:
         prompt = generate_prompt(item["statement"])
         response = query_model(prompt, messages)
 
-        # Escrever os resultados no arquivo CSV
         writer.writerow([item["id"], item["statement"], item["facet"], item["reversed"], response])
 
 print(f"Respostas salvas no arquivo {output_file}.")

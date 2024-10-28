@@ -50,8 +50,8 @@ for csv_file in csv_files:
 
 sorted_results = dict(sorted(results.items(), key=lambda item: int(item[0].split('testePsycho')[-1])))
 output_file = 'scoresPsycho50.json'
+
 with open(output_file, 'w') as json_file:
     json.dump(sorted_results, json_file, indent=4)
 
 print(f"Resultados salvos em {output_file}")
-
