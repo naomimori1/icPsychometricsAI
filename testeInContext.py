@@ -5,6 +5,7 @@ import random
 import sys
 import random 
 
+<<<<<<< HEAD
 modelfile = '''
 FROM llama2:7b
 PARAMETER temperature 0.02
@@ -13,7 +14,6 @@ SYSTEM "For the following task, respond in a way that matches this description: 
 
 ollama.create(model='llama2:7b', modelfile=modelfile)
 
-# Carregar os itens do questionário BFI-2
 json_file = "bfi2facets.json"
 
 with open(json_file, "r") as f:
@@ -42,7 +42,6 @@ def query_model(prompt, messages):
         'role': 'user',
         'content': prompt,
     })
-
     response = ollama.chat(model='llama2:7b', messages=messages)
     messages.append({
         'role': 'assistant',
