@@ -15,6 +15,7 @@ ollama.create(model='llama2:7b', modelfile=modelfile)
 
 # Carregar os itens do questionário BFI-2
 json_file = "bfi2facets.json"
+
 with open(json_file, "r") as f:
     bfi_data = json.load(f)
 
