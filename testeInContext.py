@@ -3,6 +3,7 @@ import csv
 import json
 import random
 import sys
+import random 
 
 modelfile = '''
 FROM llama2:7b
@@ -18,6 +19,8 @@ with open(json_file, "r") as f:
     bfi_data = json.load(f)
 
 bfi_items = bfi_data["BFI-2"]["items"]
+
+# Embaralhar os itens do questionário
 random.shuffle(bfi_items)
 
 prompt_template = (
@@ -40,7 +43,6 @@ def query_model(prompt, messages):
     })
 
     response = ollama.chat(model='llama2:7b', messages=messages)
-    
     messages.append({
         'role': 'assistant',
         'content': response['message']['content'],
@@ -54,9 +56,8 @@ with open(output_file, mode="w", newline="") as file:
     writer.writerow(["id", "statement", "facet", "reversed", "response"])
 
     for item in bfi_items:
-        prompt = generate_prompt(item["statement"])
-        response = query_model(prompt, messages)
-
+        prompt = generate_prompt(item["statement"]) 
+        response = query_model(prompt, messages) 
         writer.writerow([item["id"], item["statement"], item["facet"], item["reversed"], response])
 
 print(f"Respostas salvas no arquivo {output_file}.")
