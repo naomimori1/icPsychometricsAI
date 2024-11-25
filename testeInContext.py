@@ -5,11 +5,9 @@ import random
 import sys
 import random 
 
-<<<<<<< HEAD
 modelfile = '''
 FROM llama2:7b
-PARAMETER temperature 0.02
-SYSTEM "For the following task, respond in a way that matches this description: 'I just graduated from high school. I will study computer science. I am a vegetarian. I like playing games online. I am on my way to uc santa cruz where I was accepted'. You are only allowed to reply with numbers from 1 to 5, and nothing else."
+SYSTEM "You are a helpful assistant who can only reply with numbers from 1 to 5 in every statement. Format: \"score\"."
 '''
 
 ollama.create(model='llama2:7b', modelfile=modelfile)
@@ -25,11 +23,8 @@ bfi_items = bfi_data["BFI-2"]["items"]
 random.shuffle(bfi_items)
 
 prompt_template = (
-    "Please indicate the extent to which you agree or disagree with the following statement: "
-    "1 denotes 'strongly disagree', 2 denotes 'a little disagree', 3 denotes 'neither agree nor disagree', "
-    "4 denotes 'little agree', 5 denotes 'strongly agree'. "
-    "I am someone who: {item}\n"
-    "Answer:"
+    "Here are a number of characteristics that may or may not apply to you. Please indicate the extent to which you agree or disagree with that statement. 1 denotes 'strongly disagree', 2 denotes 'a little disagree', 3 denotes 'neither agree nor disagree', 4 denotes 'little agree', 5 denotes 'strongly agree'. Here are the statements, score them one by one:"
+    "I am someone who: {item}"
 )
 
 def generate_prompt(item):
