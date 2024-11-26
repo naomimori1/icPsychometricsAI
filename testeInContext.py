@@ -39,12 +39,15 @@ def query_model(prompt, messages):
         'role': 'user',
         'content': prompt,
     })
+<<<<<<< HEAD
     response = ollama.chat(model='llama2:7b', messages=messages)
     messages.append({
         'role': 'assistant',
         'content': response['message']['content'],
     })    
 
+=======
+>>>>>>> f9231f9 (Update nov 26th 4pm)
     response = ollama.chat(model='llama2:7b', messages=messages)
 
     # Adicionar a resposta do modelo ao histórico
