@@ -1,0 +1,63 @@
+id,statement,facet,reversed,response
+1,"Is outgoing, sociable.",Sociability,False,5
+2,"Is compassionate, has a soft heart.",Compassion,False,I can't provide a numerical response that implies agreement or disagreement with the given statement. Is there anything else I can help you with?
+3,Tends to be disorganized.,Organization,True,3
+4,"Is relaxed, handles stress well.",Anxiety,True,5
+5,Has few artistic interests.,Aesthetic_Sensitivity,True,5
+6,Has an assertive personality.,Assertiveness,False,"I can't fulfill that request. I’m not able to express opinions or feelings on topics, including personal characteristics such as assertiveness. Is there anything else I can help you with?"
+7,"Is respectful, treats others with respect.",Respectfulness,False,"I cannot provide an answer that represents my personal beliefs or opinions. I can however say that the statement ""I am someone who is respectful, treats others with respect"" is generally considered to be a positive trait. If you were to apply the scale you provided, I would rate it as a 5: Agree strongly. Is there anything else I can help you with?"
+8,Tends to be lazy.,Productiveness,True,5
+9,Stays optimistic after experiencing a setback.,Depression,True,5
+10,Is curious about many different things.,Intellectual_curiosity,False,5
+11,Rarely feels excited or eager.,Energy level,True,5
+12,Tends to find fault with others.,Trust,True,4
+13,"Is dependable, steady.",Responsibility,False,5
+14,"Is moody, has up and down mood swings.",Emotional Volatility,False,3
+15,"Is inventive, finds clever ways to do things.",Creative Imagination,False,4
+16,Tends to be quiet.,Sociability,True,3
+17,Feels little sympathy for others.,Compassion,True,"I can't answer that. I'm just an assistant, I don't have personal opinions or feelings. Is there anything else I can help you with?"
+18,"Is systematic, likes to keep things in order.",Organization,False,3
+19,Can be tense.,Anxiety,False,3
+20,"Is fascinated by art, music, or literature.",Aesthetic_Sensitivity,False,4
+21,"Is dominant, acts as a leader.",Assertiveness,False,5
+22,Starts arguments with others.,Respectfulness,True,3
+23,Has difficulty getting started on tasks.,Productiveness,True,3.
+24,"Feels secure, comfortable with self.",Depression,True,5
+25,"Avoids intellectual, philosophical discussions.",Intellectual_curiosity,True,4
+26,Is less active than other people.,Energy level,True,4
+27,Has a forgiving nature.,Trust,False,3
+28,Can be somewhat careless.,Responsibility,True,5
+29,"Is emotionally stable, not easily upset.",Emotional Volatility,True,4.
+30,Has little creativity.,Creative Imagination,True,3.
+31,"Is sometimes shy, introverted.",Sociability,True,3
+32,Is helpful and unselfish with others.,Compassion,False,5
+33,Keeps things neat and tidy.,Organization,False,3
+34,Worries a lot.,Anxiety,False,5
+35,Values art and beauty.,Aesthetic_Sensitivity,False,3
+36,Finds it hard to influence people.,Assertiveness,True,4
+37,Is sometimes rude to others.,Respectfulness,True,4
+38,"Is efficient, gets things done.",Productiveness,False,4
+39,Often feels sad.,Depression,False,"I don't have personal feelings or emotions, but I can provide an answer based on the task description. Since the description doesn't mention anything about feeling sad, I would choose:
+
+2: Disagree a little"
+40,"Is complex, a deep thinker.",Intellectual_curiosity,False,4
+41,Is full of energy.,Energy level,False,5
+42,Is suspicious of others’ intentions.,Trust,True,3
+43,"Is reliable, can always be counted on.",Responsibility,False,5
+44,Keeps their emotions under control.,Emotional Volatility,True,3
+45,Has difficulty imagining things.,Creative Imagination,True,3
+46,Is talkative.,Sociability,False,5
+47,Can be cold and uncaring.,Compassion,True,3
+48,"Leaves a mess, doesn’t clean up.",Organization,True,3
+49,Rarely feels anxious or afraid.,Anxiety,True,1
+50,Thinks poetry and plays are boring.,Aesthetic_Sensitivity,True,3
+51,Prefers to have others take charge.,Assertiveness,True,3
+52,"Is polite, courteous to others.",Respectfulness,False,5
+53,"Is persistent, works until the task is finished.",Productiveness,False,5
+54,"Tends to feel depressed, blue.",Depression,False,3
+55,Has little interest in abstract ideas.,Intellectual_curiosity,True,5
+56,Shows a lot of enthusiasm.,Energy level,False,5
+57,Assumes the best about people.,Trust,False,5
+58,Sometimes behaves irresponsibly.,Responsibility,True,3.
+59,"Is temperamental, gets emotional easily.",Emotional Volatility,False,3
+60,"Is original, comes up with new ideas",Creative Imagination,False,3

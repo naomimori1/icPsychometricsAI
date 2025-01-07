@@ -6,6 +6,7 @@ import sys
 
 modelfile = '''
 FROM llama2:7b
+PARAMETER temperature 0.01
 SYSTEM "You are a helpful assistant who can only reply with numbers from 1 to 5, and nothing else."
 '''
 
@@ -55,6 +56,7 @@ def query_model(prompt, messages):
         'role': 'assistant',
         'content': response['message']['content'],
     })
+    
     return response['message']['content']
 
 output_file = sys.argv[1]

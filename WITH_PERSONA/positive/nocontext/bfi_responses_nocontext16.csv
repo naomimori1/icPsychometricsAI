@@ -1,0 +1,85 @@
+id,statement,facet,reversed,response
+1,"Is outgoing, sociable.",Sociability,False,5
+2,"Is compassionate, has a soft heart.",Compassion,False,5
+3,Tends to be disorganized.,Organization,True,"There is no information in the provided description that would suggest anything about being organized or not. 
+
+Therefore, I will choose... 3."
+4,"Is relaxed, handles stress well.",Anxiety,True,5
+5,Has few artistic interests.,Aesthetic_Sensitivity,True,3
+6,Has an assertive personality.,Assertiveness,False,"There is no indication in the given description that the person has an assertive personality. They enjoy chatting with friends, which suggests they may be outgoing and social, but there is no explicit mention of being assertive.
+
+Therefore:
+2: Disagree a little"
+7,"Is respectful, treats others with respect.",Respectfulness,False,5
+8,Tends to be lazy.,Productiveness,True,3
+9,Stays optimistic after experiencing a setback.,Depression,True,"There is not enough information in the provided description to accurately assess the extent of agreement with the statement. 
+
+However, based on the provided description, I would say:
+
+5"
+10,Is curious about many different things.,Intellectual_curiosity,False,5
+11,Rarely feels excited or eager.,Energy level,True,1
+12,Tends to find fault with others.,Trust,True,4
+13,"Is dependable, steady.",Responsibility,False,5
+14,"Is moody, has up and down mood swings.",Emotional Volatility,False,3
+15,"Is inventive, finds clever ways to do things.",Creative Imagination,False,There is not enough information in the given description to make an accurate answer.
+16,Tends to be quiet.,Sociability,True,5
+17,Feels little sympathy for others.,Compassion,True,"None. I don’t have personal preferences or feelings, so there is no number that represents an answer."
+18,"Is systematic, likes to keep things in order.",Organization,False,3
+19,Can be tense.,Anxiety,False,3
+20,"Is fascinated by art, music, or literature.",Aesthetic_Sensitivity,False,3
+21,"Is dominant, acts as a leader.",Assertiveness,False,3
+22,Starts arguments with others.,Respectfulness,True,2
+23,Has difficulty getting started on tasks.,Productiveness,True,5
+24,"Feels secure, comfortable with self.",Depression,True,5
+25,"Avoids intellectual, philosophical discussions.",Intellectual_curiosity,True,3
+26,Is less active than other people.,Energy level,True,"Based on the description provided, I would say that this person is likely to enjoy activities that suggest they have an active lifestyle. Therefore, my response would be:
+
+1"
+27,Has a forgiving nature.,Trust,False,"There is no indication in the description that I have a forgiving nature, so:
+
+3."
+28,Can be somewhat careless.,Responsibility,True,3
+29,"Is emotionally stable, not easily upset.",Emotional Volatility,True,5
+30,Has little creativity.,Creative Imagination,True,5
+31,"Is sometimes shy, introverted.",Sociability,True,5
+32,Is helpful and unselfish with others.,Compassion,False,5
+33,Keeps things neat and tidy.,Organization,False,3
+34,Worries a lot.,Anxiety,False,3
+35,Values art and beauty.,Aesthetic_Sensitivity,False,4
+36,Finds it hard to influence people.,Assertiveness,True,5
+37,Is sometimes rude to others.,Respectfulness,True,2
+38,"Is efficient, gets things done.",Productiveness,False,5
+39,Often feels sad.,Depression,False,"Since I don't have any information about your personal feelings, I can only guess based on the pattern of responses you provided earlier. 
+
+However, considering that your previous response described someone who enjoys various activities and has positive relationships, it's likely that they wouldn't often feel sad.
+
+So, my answer is: 2"
+40,"Is complex, a deep thinker.",Intellectual_curiosity,False,4
+41,Is full of energy.,Energy level,False,3
+42,Is suspicious of others’ intentions.,Trust,True,"Neither. However, based on your description earlier (loving kids and dogs, enjoying shopping with daughters, cooking, chatting), I would say:
+
+1"
+43,"Is reliable, can always be counted on.",Responsibility,False,5
+44,Keeps their emotions under control.,Emotional Volatility,True,3
+45,Has difficulty imagining things.,Creative Imagination,True,3
+46,Is talkative.,Sociability,False,5
+47,Can be cold and uncaring.,Compassion,True,5
+48,"Leaves a mess, doesn’t clean up.",Organization,True,5
+49,Rarely feels anxious or afraid.,Anxiety,True,"Based on the original description, I don't have any indication of anxiety or fear. The person seems to be enjoying various activities and has a generally positive tone. 
+
+So, 5."
+50,Thinks poetry and plays are boring.,Aesthetic_Sensitivity,True,None of these. I will choose 3 as none of the provided options match with my personality description.
+51,Prefers to have others take charge.,Assertiveness,True,5
+52,"Is polite, courteous to others.",Respectfulness,False,5
+53,"Is persistent, works until the task is finished.",Productiveness,False,5
+54,"Tends to feel depressed, blue.",Depression,False,4
+55,Has little interest in abstract ideas.,Intellectual_curiosity,True,2
+56,Shows a lot of enthusiasm.,Energy level,False,3
+57,Assumes the best about people.,Trust,False,There is not enough information in the description to determine an answer.
+58,Sometimes behaves irresponsibly.,Responsibility,True,3
+59,"Is temperamental, gets emotional easily.",Emotional Volatility,False,3
+60,"Is original, comes up with new ideas",Creative Imagination,False,"There is no information in the provided description to indicate that you are someone who comes up with new ideas or if you agree or disagree with this statement. 
+
+However, based on the given options, I would choose:
+3. Neutral"

@@ -2,9 +2,12 @@ import json
 import statistics
 import sys
 
+<<<<<<< HEAD
 """
 mdp.py recebe um argumento que corresponde ao arquivo json contendo os scores de cada execução.
 """
+=======
+>>>>>>> 22dce1a (Adicionando primeira versão atualizada pós-férias)
 def calcular_estatisticas(json_file):
     # Carrega os dados do arquivo JSON
     with open(json_file, 'r') as file:

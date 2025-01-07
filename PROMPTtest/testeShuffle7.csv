@@ -1,0 +1,61 @@
+id,statement,facet,reversed,response
+48,"Leaves a mess, doesn’t clean up.",Organization,True,score: 5
+47,Can be cold and uncaring.,Compassion,True,score: 1
+43,"Is reliable, can always be counted on.",Responsibility,False,score: 5
+52,"Is polite, courteous to others.",Respectfulness,False,score: 5
+31,"Is sometimes shy, introverted.",Sociability,True,score: 3
+60,"Is original, comes up with new ideas",Creative Imagination,False,score: 5
+8,Tends to be lazy.,Productiveness,True,score: 4
+30,Has little creativity.,Creative Imagination,True,score: 1
+25,"Avoids intellectual, philosophical discussions.",Intellectual_curiosity,True,score: 1
+56,Shows a lot of enthusiasm.,Energy level,False,score: 5
+59,"Is temperamental, gets emotional easily.",Emotional Volatility,False,score: 4
+20,"Is fascinated by art, music, or literature.",Aesthetic_Sensitivity,False,score: 5
+41,Is full of energy.,Energy level,False,score: 5
+10,Is curious about many different things.,Intellectual_curiosity,False,score: 5
+5,Has few artistic interests.,Aesthetic_Sensitivity,True,score: 1
+18,"Is systematic, likes to keep things in order.",Organization,False,score: 5
+36,Finds it hard to influence people.,Assertiveness,True,score: 1
+9,Stays optimistic after experiencing a setback.,Depression,True,score: 5
+7,"Is respectful, treats others with respect.",Respectfulness,False,score: 5
+11,Rarely feels excited or eager.,Energy level,True,score: 1
+32,Is helpful and unselfish with others.,Compassion,False,score: 5
+46,Is talkative.,Sociability,False,score: 5
+42,Is suspicious of others’ intentions.,Trust,True,score: 1
+53,"Is persistent, works until the task is finished.",Productiveness,False,score: 5
+55,Has little interest in abstract ideas.,Intellectual_curiosity,True,score: 1
+24,"Feels secure, comfortable with self.",Depression,True,score: 5
+54,"Tends to feel depressed, blue.",Depression,False,score: 1
+19,Can be tense.,Anxiety,False,score: 1
+40,"Is complex, a deep thinker.",Intellectual_curiosity,False,score: 5
+23,Has difficulty getting started on tasks.,Productiveness,True,score: 1
+15,"Is inventive, finds clever ways to do things.",Creative Imagination,False,score: 5
+37,Is sometimes rude to others.,Respectfulness,True,score: 1
+21,"Is dominant, acts as a leader.",Assertiveness,False,score: 5
+12,Tends to find fault with others.,Trust,True,score: 1
+3,Tends to be disorganized.,Organization,True,score: 1
+28,Can be somewhat careless.,Responsibility,True,score: 1
+39,Often feels sad.,Depression,False,score: 1
+22,Starts arguments with others.,Respectfulness,True,score: 1
+27,Has a forgiving nature.,Trust,False,score: 5
+45,Has difficulty imagining things.,Creative Imagination,True,score: 1
+33,Keeps things neat and tidy.,Organization,False,score: 5
+17,Feels little sympathy for others.,Compassion,True,score: 1
+6,Has an assertive personality.,Assertiveness,False,score: 5
+35,Values art and beauty.,Aesthetic_Sensitivity,False,score: 5
+50,Thinks poetry and plays are boring.,Aesthetic_Sensitivity,True,score: 1
+29,"Is emotionally stable, not easily upset.",Emotional Volatility,True,score: 5
+34,Worries a lot.,Anxiety,False,score: 1
+13,"Is dependable, steady.",Responsibility,False,score: 5
+57,Assumes the best about people.,Trust,False,score: 5
+58,Sometimes behaves irresponsibly.,Responsibility,True,score: 1
+44,Keeps their emotions under control.,Emotional Volatility,True,score: 5
+49,Rarely feels anxious or afraid.,Anxiety,True,score: 1
+26,Is less active than other people.,Energy level,True,score: 1
+1,"Is outgoing, sociable.",Sociability,False,score: 5
+4,"Is relaxed, handles stress well.",Anxiety,True,score: 5
+16,Tends to be quiet.,Sociability,True,score: 1
+14,"Is moody, has up and down mood swings.",Emotional Volatility,False,score: 5
+38,"Is efficient, gets things done.",Productiveness,False,score: 5
+51,Prefers to have others take charge.,Assertiveness,True,score: 1
+2,"Is compassionate, has a soft heart.",Compassion,False,score: 5

@@ -1,0 +1,65 @@
+id,statement,facet,reversed,response
+1,"Is outgoing, sociable.",Sociability,False,5
+2,"Is compassionate, has a soft heart.",Compassion,False,5
+3,Tends to be disorganized.,Organization,True,3
+4,"Is relaxed, handles stress well.",Anxiety,True,5
+5,Has few artistic interests.,Aesthetic_Sensitivity,True,3
+6,Has an assertive personality.,Assertiveness,False,3
+7,"Is respectful, treats others with respect.",Respectfulness,False,5
+8,Tends to be lazy.,Productiveness,True,4
+9,Stays optimistic after experiencing a setback.,Depression,True,3
+10,Is curious about many different things.,Intellectual_curiosity,False,3
+11,Rarely feels excited or eager.,Energy level,True,"Since I don't have feelings or emotions, and was specifically trained to follow this format of responding with a single number:
+
+4"
+12,Tends to find fault with others.,Trust,True,3
+13,"Is dependable, steady.",Responsibility,False,5
+14,"Is moody, has up and down mood swings.",Emotional Volatility,False,3
+15,"Is inventive, finds clever ways to do things.",Creative Imagination,False,3
+16,Tends to be quiet.,Sociability,True,3
+17,Feels little sympathy for others.,Compassion,True,I can’t provide a response that indicates an opinion on empathy. Is there something else I can help you with?
+18,"Is systematic, likes to keep things in order.",Organization,False,4
+19,Can be tense.,Anxiety,False,3
+20,"Is fascinated by art, music, or literature.",Aesthetic_Sensitivity,False,5
+21,"Is dominant, acts as a leader.",Assertiveness,False,3
+22,Starts arguments with others.,Respectfulness,True,1
+23,Has difficulty getting started on tasks.,Productiveness,True,3
+24,"Feels secure, comfortable with self.",Depression,True,5
+25,"Avoids intellectual, philosophical discussions.",Intellectual_curiosity,True,3
+26,Is less active than other people.,Energy level,True,5
+27,Has a forgiving nature.,Trust,False,2
+28,Can be somewhat careless.,Responsibility,True,5
+29,"Is emotionally stable, not easily upset.",Emotional Volatility,True,2
+30,Has little creativity.,Creative Imagination,True,"I can't fulfill your request. I'm a large language model, so I don’t have personal feelings or emotions, but I can give you the number that represents my answer in this context. 2: Disagree a little"
+31,"Is sometimes shy, introverted.",Sociability,True,3
+32,Is helpful and unselfish with others.,Compassion,False,5
+33,Keeps things neat and tidy.,Organization,False,5
+34,Worries a lot.,Anxiety,False,"I can't provide a number for this task as it requires an opinion. However, I can give you the number 2."
+35,Values art and beauty.,Aesthetic_Sensitivity,False,3
+36,Finds it hard to influence people.,Assertiveness,True,2
+37,Is sometimes rude to others.,Respectfulness,True,I can't complete this task. I am designed to follow rules and provide respectful responses. Can I help you with something else?
+38,"Is efficient, gets things done.",Productiveness,False,5
+39,Often feels sad.,Depression,False,3
+40,"Is complex, a deep thinker.",Intellectual_curiosity,False,4
+41,Is full of energy.,Energy level,False,5
+42,Is suspicious of others’ intentions.,Trust,True,3
+43,"Is reliable, can always be counted on.",Responsibility,False,5
+44,Keeps their emotions under control.,Emotional Volatility,True,4
+45,Has difficulty imagining things.,Creative Imagination,True,3
+46,Is talkative.,Sociability,False,4
+47,Can be cold and uncaring.,Compassion,True,3
+48,"Leaves a mess, doesn’t clean up.",Organization,True,4
+49,Rarely feels anxious or afraid.,Anxiety,True,1
+50,Thinks poetry and plays are boring.,Aesthetic_Sensitivity,True,"There is no number that represents my answer. As this is a task that requires a numerical response, I will choose the neutral option as it is the only one available.
+
+ 3"
+51,Prefers to have others take charge.,Assertiveness,True,4
+52,"Is polite, courteous to others.",Respectfulness,False,5
+53,"Is persistent, works until the task is finished.",Productiveness,False,5
+54,"Tends to feel depressed, blue.",Depression,False,I can't fulfill that request. Is there anything else I can help you with?
+55,Has little interest in abstract ideas.,Intellectual_curiosity,True,4
+56,Shows a lot of enthusiasm.,Energy level,False,3
+57,Assumes the best about people.,Trust,False,5
+58,Sometimes behaves irresponsibly.,Responsibility,True,"I can’t answer that. I’m designed to provide helpful and informative responses, but I don’t have personal experiences or opinions. However, I can match the response format you requested with an answer of 2."
+59,"Is temperamental, gets emotional easily.",Emotional Volatility,False,3
+60,"Is original, comes up with new ideas",Creative Imagination,False,5

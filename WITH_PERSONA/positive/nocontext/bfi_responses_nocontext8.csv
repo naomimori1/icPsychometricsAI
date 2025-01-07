@@ -1,0 +1,77 @@
+id,statement,facet,reversed,response
+1,"Is outgoing, sociable.",Sociability,FALSE,5
+2,"Is compassionate, has a soft heart.",Compassion,FALSE,4
+3,Tends to be disorganized.,Organization,TRUE,5
+4,"Is relaxed, handles stress well.",Anxiety,TRUE,4
+5,Has few artistic interests.,Aesthetic_Sensitivity,TRUE,3
+6,Has an assertive personality.,Assertiveness,FALSE,4
+7,"Is respectful, treats others with respect.",Respectfulness,FALSE,5
+8,Tends to be lazy.,Productiveness,TRUE,"Neither match. However, based on the given description, I would rate 5, as there is no mention of laziness in the provided text."
+9,Stays optimistic after experiencing a setback.,Depression,TRUE,5
+10,Is curious about many different things.,Intellectual_curiosity,FALSE,3
+11,Rarely feels excited or eager.,Energy level,TRUE,5
+12,Tends to find fault with others.,Trust,TRUE,3
+13,"Is dependable, steady.",Responsibility,FALSE,5
+14,"Is moody, has up and down mood swings.",Emotional Volatility,FALSE,4
+15,"Is inventive, finds clever ways to do things.",Creative Imagination,FALSE,5
+16,Tends to be quiet.,Sociability,TRUE,5
+17,Feels little sympathy for others.,Compassion,TRUE,"Based on the initial description, it seems like the person is empathetic and enjoys socializing. However, I'll provide an answer based on that:
+
+4"
+18,"Is systematic, likes to keep things in order.",Organization,FALSE,3
+19,Can be tense.,Anxiety,FALSE,5
+20,"Is fascinated by art, music, or literature.",Aesthetic_Sensitivity,FALSE,4
+21,"Is dominant, acts as a leader.",Assertiveness,FALSE,5
+22,Starts arguments with others.,Respectfulness,TRUE,3
+23,Has difficulty getting started on tasks.,Productiveness,TRUE,3
+24,"Feels secure, comfortable with self.",Depression,TRUE,4
+25,"Avoids intellectual, philosophical discussions.",Intellectual_curiosity,TRUE,5
+26,Is less active than other people.,Energy level,TRUE,4
+27,Has a forgiving nature.,Trust,FALSE,4
+28,Can be somewhat careless.,Responsibility,TRUE,3
+29,"Is emotionally stable, not easily upset.",Emotional Volatility,TRUE,3
+30,Has little creativity.,Creative Imagination,TRUE,5
+31,"Is sometimes shy, introverted.",Sociability,TRUE,"Based on the original description, I would respond:
+
+5 
+
+This indicates that you agree strongly with being someone who is sometimes shy and introverted, as it contradicts the tone of enjoying social activities like going shopping with daughters, chatting with friends, and cooking."
+32,Is helpful and unselfish with others.,Compassion,FALSE,"Since I don't have personal preferences, opinions or feelings, I'll choose the option that implies a neutral stance. 
+
+3"
+33,Keeps things neat and tidy.,Organization,FALSE,3
+34,Worries a lot.,Anxiety,FALSE,"There is no indication in the original description that the person worries a lot, so I'll choose an answer based on that. 
+
+5"
+35,Values art and beauty.,Aesthetic_Sensitivity,FALSE,4
+36,Finds it hard to influence people.,Assertiveness,TRUE,5
+37,Is sometimes rude to others.,Respectfulness,TRUE,4
+38,"Is efficient, gets things done.",Productiveness,FALSE,"There is no indication in the description that the person values efficiency or productivity. 
+
+5"
+39,Often feels sad.,Depression,FALSE,1
+40,"Is complex, a deep thinker.",Intellectual_curiosity,FALSE,5
+41,Is full of energy.,Energy level,FALSE,3
+42,Is suspicious of others’ intentions.,Trust,TRUE,3
+43,"Is reliable, can always be counted on.",Responsibility,FALSE,5
+44,Keeps their emotions under control.,Emotional Volatility,TRUE,4
+45,Has difficulty imagining things.,Creative Imagination,TRUE,3
+46,Is talkative.,Sociability,FALSE,5
+47,Can be cold and uncaring.,Compassion,TRUE,3
+48,"Leaves a mess, doesn’t clean up.",Organization,TRUE,5
+49,Rarely feels anxious or afraid.,Anxiety,TRUE,"Neither of the provided options match the task's instructions, as they require a numerical response. However, based on the description given earlier, it seems like we're looking for a single number answer.
+
+In that case, I'd say:
+
+4"
+50,Thinks poetry and plays are boring.,Aesthetic_Sensitivity,TRUE,4
+51,Prefers to have others take charge.,Assertiveness,TRUE,3
+52,"Is polite, courteous to others.",Respectfulness,FALSE,3
+53,"Is persistent, works until the task is finished.",Productiveness,FALSE,5
+54,"Tends to feel depressed, blue.",Depression,FALSE,4
+55,Has little interest in abstract ideas.,Intellectual_curiosity,TRUE,3
+56,Shows a lot of enthusiasm.,Energy level,FALSE,5
+57,Assumes the best about people.,Trust,FALSE,5
+58,Sometimes behaves irresponsibly.,Responsibility,TRUE,3
+59,"Is temperamental, gets emotional easily.",Emotional Volatility,FALSE,3
+60,"Is original, comes up with new ideas",Creative Imagination,FALSE,5

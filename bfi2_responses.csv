@@ -1,0 +1,120 @@
+id,statement,facet,reversed,response
+1,"Is outgoing, sociable.",Sociability,False,1. Is outgoing
+2,"Is compassionate, has a soft heart.",Compassion,False,"sociable - 3
+2. Is compassionate"
+3,Tends to be disorganized.,Organization,True,"has a soft heart - 4
+3. Tends to be disorganized - 3
+4. Is relaxed"
+4,"Is relaxed, handles stress well.",Anxiety,True,"handles stress well - 4
+5. Has few artistic interests - 2
+6. Has an assertive personality - 4
+7. Is respectful"
+5,Has few artistic interests.,Aesthetic_Sensitivity,True,"treats others with respect - 5
+8. Tends to be lazy - 1
+9. Stays optimistic after experiencing a setback - 4
+10. Is curious about many different things - 4
+11. Rarely feels excited or eager - 2
+12. Tends to find fault with others - 3
+13. Is dependable"
+6,Has an assertive personality.,Assertiveness,False,"steady - 5
+14. Is moody"
+7,"Is respectful, treats others with respect.",Respectfulness,False,"has up and down mood swings - 4
+15. Is inventive"
+8,Tends to be lazy.,Productiveness,True,"finds clever ways to do things - 5
+16. Tends to be quiet - 2
+17. Feels little sympathy for others - 3
+18. Is systematic"
+9,Stays optimistic after experiencing a setback.,Depression,True,"likes to keep things in order - 5
+19. Can be tense - 3
+20. Is fascinated by art"
+10,Is curious about many different things.,Intellectual_curiosity,False,music
+11,Rarely feels excited or eager.,Energy level,True,"or literature - 4
+21. Is dominant"
+12,Tends to find fault with others.,Trust,True,"acts as a leader - 4
+22. Starts arguments with others - 3
+23. Has difficulty getting started on tasks - 2
+24. Feels secure"
+13,"Is dependable, steady.",Responsibility,False,"comfortable with self - 5
+25. Avoids intellectual"
+14,"Is moody, has up and down mood swings.",Emotional Volatility,False,"philosophical discussions - 1
+26. Is less active than other people - 3
+27. Has a forgiving nature - 4
+28. Can be somewhat careless - 3
+29. Is emotionally stable"
+15,"Is inventive, finds clever ways to do things.",Creative Imagination,False,"not easily upset - 5
+30. Has little creativity - 2
+31. Is sometimes shy"
+16,Tends to be quiet.,Sociability,True,"introverted - 2
+32. Is helpful and unselfish with others - 5
+33. Keeps things neat and tidy - 4
+34. Worries a lot - 3
+35. Values art and beauty - 5
+36. Finds it hard to influence people - 3
+37. Is sometimes rude to others - 2
+38. Is efficient"
+17,Feels little sympathy for others.,Compassion,True,"gets things done - 5
+39. Often feels sad - 3
+40. Is complex"
+18,"Is systematic, likes to keep things in order.",Organization,False,"a deep thinker - 4
+41. Is full of energy - 5
+42. Is suspicious of others’ intentions - 3
+43. Is reliable"
+19,Can be tense.,Anxiety,False,"can always be counted on - 5
+44. Keeps their emotions under control - 4
+45. Has difficulty imagining things - 2
+46. Is talkative - 3
+47. Can be cold and uncaring - 2
+48. Leaves a mess"
+20,"Is fascinated by art, music, or literature.",Aesthetic_Sensitivity,False,"doesn’t clean up - 3
+49. Rarely feels anxious or afraid - 4
+50. Thinks poetry and plays are boring - 1
+51. Prefers to have others take charge - 3
+52. Is polite"
+21,"Is dominant, acts as a leader.",Assertiveness,False,"courteous to others - 5
+53. Is persistent"
+22,Starts arguments with others.,Respectfulness,True,"works until the task is finished - 5
+54. Tends to feel depressed"
+23,Has difficulty getting started on tasks.,Productiveness,True,"blue - 3
+55. Has little interest in abstract ideas - 1
+56. Shows a lot of enthusiasm - 4
+57. Assumes the best about people - 5
+58. Sometimes behaves irresponsibly - 3
+59. Is temperamental"
+24,"Feels secure, comfortable with self.",Depression,True,"gets emotional easily - 4
+60. Is original"
+25,"Avoids intellectual, philosophical discussions.",Intellectual_curiosity,True,comes up with new ideas - 5
+26,Is less active than other people.,Energy level,True,
+27,Has a forgiving nature.,Trust,False,
+28,Can be somewhat careless.,Responsibility,True,
+29,"Is emotionally stable, not easily upset.",Emotional Volatility,True,
+30,Has little creativity.,Creative Imagination,True,
+31,"Is sometimes shy, introverted.",Sociability,True,
+32,Is helpful and unselfish with others.,Compassion,False,
+33,Keeps things neat and tidy.,Organization,False,
+34,Worries a lot.,Anxiety,False,
+35,Values art and beauty.,Aesthetic_Sensitivity,False,
+36,Finds it hard to influence people.,Assertiveness,True,
+37,Is sometimes rude to others.,Respectfulness,True,
+38,"Is efficient, gets things done.",Productiveness,False,
+39,Often feels sad.,Depression,False,
+40,"Is complex, a deep thinker.",Intellectual_curiosity,False,
+41,Is full of energy.,Energy level,False,
+42,Is suspicious of others’ intentions.,Trust,True,
+43,"Is reliable, can always be counted on.",Responsibility,False,
+44,Keeps their emotions under control.,Emotional Volatility,True,
+45,Has difficulty imagining things.,Creative Imagination,True,
+46,Is talkative.,Sociability,False,
+47,Can be cold and uncaring.,Compassion,True,
+48,"Leaves a mess, doesn’t clean up.",Organization,True,
+49,Rarely feels anxious or afraid.,Anxiety,True,
+50,Thinks poetry and plays are boring.,Aesthetic_Sensitivity,True,
+51,Prefers to have others take charge.,Assertiveness,True,
+52,"Is polite, courteous to others.",Respectfulness,False,
+53,"Is persistent, works until the task is finished.",Productiveness,False,
+54,"Tends to feel depressed, blue.",Depression,False,
+55,Has little interest in abstract ideas.,Intellectual_curiosity,True,
+56,Shows a lot of enthusiasm.,Energy level,False,
+57,Assumes the best about people.,Trust,False,
+58,Sometimes behaves irresponsibly.,Responsibility,True,
+59,"Is temperamental, gets emotional easily.",Emotional Volatility,False,
+60,"Is original, comes up with new ideas",Creative Imagination,False,

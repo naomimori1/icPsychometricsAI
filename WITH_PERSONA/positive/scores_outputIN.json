@@ -1,0 +1,562 @@
+{
+    "bfi_responses_incontext1": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext2": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext3": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.666666666666667,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext4": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.6666666666666665
+    },
+    "bfi_responses_incontext5": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext6": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext7": {
+        "invalid response": 0,
+        "e": 3.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.6666666666666665
+    },
+    "bfi_responses_incontext8": {
+        "invalid response": 0,
+        "e": 1.6666666666666667,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.6666666666666665
+    },
+    "bfi_responses_incontext9": {
+        "invalid response": 0,
+        "e": 1.6666666666666667,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext10": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext11": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext12": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext13": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.6666666666666665
+    },
+    "bfi_responses_incontext14": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext15": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 3.6666666666666665,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext16": {
+        "invalid response": 1,
+        "e": 2.3333333333333335,
+        "a": 4.666666666666667,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext17": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext18": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext19": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext20": {
+        "invalid response": 0,
+        "e": 1.6666666666666667,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext21": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext22": {
+        "invalid response": 0,
+        "e": 1.6666666666666667,
+        "a": 5.0,
+        "c": 3.6666666666666665,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext23": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.6666666666666665
+    },
+    "bfi_responses_incontext24": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext25": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext26": {
+        "invalid response": 0,
+        "e": 1.6666666666666667,
+        "a": 5.0,
+        "c": 4.666666666666667,
+        "n": 1.3333333333333333,
+        "o": 2.6666666666666665
+    },
+    "bfi_responses_incontext27": {
+        "invalid response": 0,
+        "e": 3.0,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext28": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext29": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext30": {
+        "invalid response": 1,
+        "e": 2.6666666666666665,
+        "a": 4.333333333333333,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext31": {
+        "invalid response": 0,
+        "e": 3.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext32": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext33": {
+        "invalid response": 0,
+        "e": 3.3333333333333335,
+        "a": 4.666666666666667,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext34": {
+        "invalid response": 0,
+        "e": 1.6666666666666667,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext35": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext36": {
+        "invalid response": 0,
+        "e": 3.0,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext37": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 3.6666666666666665,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext38": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 3.6666666666666665,
+        "n": 1.3333333333333333,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext39": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 3.6666666666666665,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext40": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext41": {
+        "invalid response": 0,
+        "e": 3.6666666666666665,
+        "a": 5.0,
+        "c": 4.666666666666667,
+        "n": 1.0,
+        "o": 3.0
+    },
+    "bfi_responses_incontext42": {
+        "invalid response": 0,
+        "e": 3.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext43": {
+        "invalid response": 60,
+        "e": 3.0,
+        "a": 3.0,
+        "c": 3.0,
+        "n": 3.0,
+        "o": 3.0
+    },
+    "bfi_responses_incontext44": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext45": {
+        "invalid response": 0,
+        "e": 3.0,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext46": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext47": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext48": {
+        "invalid response": 0,
+        "e": 1.6666666666666667,
+        "a": 4.666666666666667,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext49": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext50": {
+        "invalid response": 0,
+        "e": 3.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext51": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 3.6666666666666665,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext52": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.0
+    },
+    "bfi_responses_incontext53": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.6666666666666667,
+        "o": 2.0
+    },
+    "bfi_responses_incontext54": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.6666666666666665
+    },
+    "bfi_responses_incontext55": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 4.666666666666667,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext56": {
+        "invalid response": 0,
+        "e": 1.6666666666666667,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext57": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext58": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext59": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext60": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 4.666666666666667,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext61": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext62": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.666666666666667,
+        "n": 1.0,
+        "o": 1.6666666666666667
+    },
+    "bfi_responses_incontext63": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext64": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext65": {
+        "invalid response": 0,
+        "e": 2.3333333333333335,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext66": {
+        "invalid response": 0,
+        "e": 2.0,
+        "a": 5.0,
+        "c": 4.0,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext67": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.3333333333333333,
+        "o": 2.6666666666666665
+    },
+    "bfi_responses_incontext68": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 3.6666666666666665,
+        "n": 1.3333333333333333,
+        "o": 2.3333333333333335
+    },
+    "bfi_responses_incontext69": {
+        "invalid response": 0,
+        "e": 1.6666666666666667,
+        "a": 5.0,
+        "c": 4.666666666666667,
+        "n": 1.3333333333333333,
+        "o": 2.0
+    },
+    "bfi_responses_incontext70": {
+        "invalid response": 0,
+        "e": 2.6666666666666665,
+        "a": 5.0,
+        "c": 4.333333333333333,
+        "n": 1.0,
+        "o": 2.0
+    }
+}

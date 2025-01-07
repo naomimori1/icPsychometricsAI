@@ -1,0 +1,181 @@
+id,statement,facet,reversed,response
+1,"Is outgoing, sociable.",Sociability,False,"Since I don't have personal experiences and feelings, my response would be based on the statement's characteristics. The description given in the task suggests a friendly and outgoing personality, so:
+
+5"
+2,"Is compassionate, has a soft heart.",Compassion,False,"The description suggests an empathetic and caring personality, so:
+
+5"
+3,Tends to be disorganized.,Organization,True,"The description given in the task doesn't suggest any tendency towards being disorganized. The tasks mentioned (shopping, cooking, chatting) imply some level of organization and planning.
+
+1"
+4,"Is relaxed, handles stress well.",Anxiety,True,"The description implies that the person values activities like going shopping and chatting with friends, which suggests they may be laid-back and enjoy social interactions. However, there's no explicit mention of handling stress well.
+
+4"
+5,Has few artistic interests.,Aesthetic_Sensitivity,True,"The description doesn't suggest any particular interest in art, but there's no indication of lack of artistic interest either. It mentions cooking and shopping as activities the person enjoys, which could imply some creative aspect to their interests.
+
+3"
+6,Has an assertive personality.,Assertiveness,False,"The description implies that the person enjoys chatting with friends, which suggests they may be outgoing and possibly assertive. However, it's not explicitly stated.
+
+4"
+7,"Is respectful, treats others with respect.",Respectfulness,False,"The description implies that the person enjoys chatting with friends and shopping with their daughters, which suggests they value relationships and interactions with others. This could be taken as an indication of being respectful.
+
+5"
+8,Tends to be lazy.,Productiveness,True,"The description given in the task doesn't suggest any tendency towards laziness. The tasks mentioned (shopping, cooking, chatting) imply some level of energy and engagement.
+
+1"
+9,Stays optimistic after experiencing a setback.,Depression,True,"The description doesn't explicitly mention how the person handles setbacks, but it does suggest an overall positive tone (enjoying shopping, cooking, and chatting with friends). This could imply some level of optimism.
+
+5"
+10,Is curious about many different things.,Intellectual_curiosity,False,"The description doesn't explicitly mention curiosity, but it does suggest an enjoyment of various activities (shopping, cooking, chatting). This could imply some level of interest in different things.
+
+4"
+11,Rarely feels excited or eager.,Energy level,True,"The description implies that the person enjoys activities like shopping and chatting with friends, which suggests they may feel excitement or eagerness in these situations.
+
+1"
+12,Tends to find fault with others.,Trust,True,"The description doesn't suggest any tendency towards criticism or finding fault with others. The tasks mentioned (shopping, cooking, chatting) imply a positive and social tone.
+
+1"
+13,"Is dependable, steady.",Responsibility,False,"The description doesn't explicitly mention dependability or steadiness, but it does suggest an enjoyment of routine activities like cooking and shopping. This could imply some level of reliability.
+
+4"
+14,"Is moody, has up and down mood swings.",Emotional Volatility,False,"The description doesn't suggest any tendency towards being moody or having unpredictable mood swings. The tasks mentioned (shopping, cooking, chatting) imply a consistent and positive tone.
+
+1"
+15,"Is inventive, finds clever ways to do things.",Creative Imagination,False,"The description doesn't suggest any particular inventiveness or creativity in finding new ways to do things. The tasks mentioned (shopping, cooking, chatting) imply more practical and straightforward activities.
+
+2"
+16,Tends to be quiet.,Sociability,True,"The description implies that the person enjoys chatting with friends and shopping, which suggests they are likely outgoing and not typically quiet.
+
+1"
+17,Feels little sympathy for others.,Compassion,True,"The description suggests an empathetic and caring personality, which is inconsistent with feeling little sympathy for others.
+
+1"
+18,"Is systematic, likes to keep things in order.",Organization,False,"The description implies that the person enjoys activities like shopping and cooking, which might require some organization. However, there's no explicit mention of a strong desire to be systematic or keep things in order.
+
+4"
+19,Can be tense.,Anxiety,False,"The description doesn't suggest any tendency towards being tense. The tasks mentioned (shopping, cooking, chatting) imply a relaxed and social tone.
+
+1"
+20,"Is fascinated by art, music, or literature.",Aesthetic_Sensitivity,False,"The description doesn't explicitly mention an interest in art, music, or literature. However, it does suggest an enjoyment of various activities like shopping and cooking, which might be more practical than artistic.
+
+2"
+21,"Is dominant, acts as a leader.",Assertiveness,False,"The description doesn't suggest any tendency towards dominance or leadership. The tasks mentioned (shopping, cooking, chatting) imply more of a social and cooperative tone.
+
+1"
+22,Starts arguments with others.,Respectfulness,True,"The description implies that the person enjoys chatting with friends and shopping, which suggests a positive and social tone. This is inconsistent with starting arguments with others.
+
+1"
+23,Has difficulty getting started on tasks.,Productiveness,True,"The description implies that the person enjoys activities like shopping and cooking, which suggests they are capable of initiating and engaging in tasks.
+
+1"
+24,"Feels secure, comfortable with self.",Depression,True,"The description suggests an outgoing and social personality, which implies that they are likely to be comfortable in various social situations. However, this does not necessarily mean they feel secure or comfortable with themselves.
+
+2"
+25,"Avoids intellectual, philosophical discussions.",Intellectual_curiosity,True,"The description doesn't suggest an avoidance of intellectual or philosophical discussions. The tasks mentioned (shopping, cooking, chatting) imply more of a social and practical tone.
+
+2"
+26,Is less active than other people.,Energy level,True,"The description suggests an enjoyment of activities like shopping and cooking, which implies that the person is likely to be relatively active in their daily life.
+
+1"
+27,Has a forgiving nature.,Trust,False,"The description implies that the person enjoys activities like shopping and cooking, which suggests a social and cooperative tone. This is consistent with having a forgiving nature.
+
+5"
+28,Can be somewhat careless.,Responsibility,True,"The description suggests an enjoyment of routine activities like shopping and cooking, which implies a sense of responsibility and reliability. This is inconsistent with being somewhat careless.
+
+1"
+29,"Is emotionally stable, not easily upset.",Emotional Volatility,True,"The description implies that the person enjoys activities like shopping and cooking, which suggests a calm and social demeanor. This is consistent with being emotionally stable.
+
+5"
+30,Has little creativity.,Creative Imagination,True,"The description doesn't explicitly mention creativity, but it does suggest an enjoyment of routine activities like shopping and cooking. This might imply some level of practicality, but not necessarily a lack of creativity.
+
+2"
+31,"Is sometimes shy, introverted.",Sociability,True,"The description implies that the person enjoys activities like shopping and chatting with friends, which suggests an outgoing and social personality. This is inconsistent with being sometimes shy or introverted.
+
+1"
+32,Is helpful and unselfish with others.,Compassion,False,"The description suggests an enjoyment of activities like shopping and cooking, which implies a social and cooperative tone. This is consistent with being helpful and unselfish.
+
+5"
+33,Keeps things neat and tidy.,Organization,False,"The description doesn't suggest a particular emphasis on cleanliness or organization. While shopping might involve some level of order, it's not explicitly stated.
+
+2"
+34,Worries a lot.,Anxiety,False,"The description implies a positive and social personality, enjoying activities like shopping and cooking with friends. This tone is inconsistent with worrying a lot.
+
+1"
+35,Values art and beauty.,Aesthetic_Sensitivity,False,"The description doesn't explicitly mention an appreciation for art or beauty. It focuses on social activities like shopping, cooking, and chatting with friends.
+
+2"
+36,Finds it hard to influence people.,Assertiveness,True,"The description implies that the person enjoys activities like shopping and cooking, which suggests they are likely able to influence or persuade others in a social setting. This is inconsistent with finding it hard to influence people.
+
+1"
+37,Is sometimes rude to others.,Respectfulness,True,"The description implies that the person enjoys activities like shopping and cooking, which suggests a social and cooperative tone. This is inconsistent with being sometimes rude to others.
+
+1"
+38,"Is efficient, gets things done.",Productiveness,False,"The description suggests an enjoyment of activities like shopping and cooking, which implies a practical and task-oriented approach. This is consistent with being efficient.
+
+5"
+39,Often feels sad.,Depression,False,"The description implies a positive and social personality, enjoying activities like shopping and cooking. This tone is inconsistent with often feeling sad.
+
+1"
+40,"Is complex, a deep thinker.",Intellectual_curiosity,False,"The description doesn't suggest a complex or introspective personality. It focuses on social activities like shopping and cooking with friends, which implies a more straightforward and practical approach.
+
+1"
+41,Is full of energy.,Energy level,False,"The description implies a social and practical personality, enjoying activities like shopping and cooking. This tone is inconsistent with being full of energy.
+
+2"
+42,Is suspicious of others’ intentions.,Trust,True,"The description implies a positive and social personality, enjoying activities like shopping and cooking with friends. This tone is inconsistent with being suspicious of others' intentions.
+
+1"
+43,"Is reliable, can always be counted on.",Responsibility,False,"The description suggests an enjoyment of routine activities like shopping and cooking, which implies a sense of responsibility and reliability. This tone is consistent with being reliable.
+
+5"
+44,Keeps their emotions under control.,Emotional Volatility,True,"The description implies a social and outgoing personality, enjoying activities like shopping and cooking with friends. This tone is consistent with being able to manage one's emotions in a social setting.
+
+5"
+45,Has difficulty imagining things.,Creative Imagination,True,"The description doesn't suggest a lack of imagination, but rather a focus on practical activities like shopping and cooking. This might imply that the person is more detail-oriented than someone with vivid imagination.
+
+2"
+46,Is talkative.,Sociability,False,"The description implies that the person enjoys activities like shopping and chatting with friends, which suggests a social and outgoing personality. This tone is consistent with being talkative.
+
+5"
+47,Can be cold and uncaring.,Compassion,True,"The description implies a social and caring personality, enjoying activities like shopping and cooking with friends. This tone is inconsistent with being cold and uncaring.
+
+1"
+48,"Leaves a mess, doesn’t clean up.",Organization,True,"The description implies that the person enjoys activities like shopping and cooking, which suggests a practical and detail-oriented approach. This tone is inconsistent with leaving a mess or not cleaning up.
+
+1"
+49,Rarely feels anxious or afraid.,Anxiety,True,"The description implies a positive and social personality, enjoying activities like shopping and cooking with friends. This tone is consistent with being relaxed and not easily feeling anxious or afraid.
+
+5"
+50,Thinks poetry and plays are boring.,Aesthetic_Sensitivity,True,"The description implies a practical and social personality, enjoying activities like shopping and cooking. This tone is inconsistent with finding poetry and plays boring.
+
+1"
+51,Prefers to have others take charge.,Assertiveness,True,"The description implies an outgoing and social personality, enjoying activities like shopping and cooking with friends. This tone is inconsistent with preferring to have others take charge.
+
+1"
+52,"Is polite, courteous to others.",Respectfulness,False,"The description implies a social and outgoing personality, enjoying activities like shopping and cooking with friends. This tone is consistent with being polite and courteous to others.
+
+5"
+53,"Is persistent, works until the task is finished.",Productiveness,False,"The description implies that the person enjoys activities like shopping and cooking, which suggests a practical and detail-oriented approach. However, it doesn't necessarily imply a strong work ethic or persistence in completing tasks. The tone is more casual and social.
+
+4"
+54,"Tends to feel depressed, blue.",Depression,False,"The description implies a positive and social personality, enjoying activities like shopping and cooking with friends. This tone is inconsistent with feeling depressed or blue.
+
+1"
+55,Has little interest in abstract ideas.,Intellectual_curiosity,True,"The description implies a practical and social personality, enjoying activities like shopping and cooking. This tone is consistent with having little interest in abstract ideas.
+
+4"
+56,Shows a lot of enthusiasm.,Energy level,False,"The description implies a social and outgoing personality, enjoying activities like shopping and cooking with friends. This tone is consistent with showing a lot of enthusiasm.
+
+5"
+57,Assumes the best about people.,Trust,False,"The description implies a positive and social personality, enjoying activities like shopping and cooking with friends. This tone is consistent with assuming the best about people.
+
+5"
+58,Sometimes behaves irresponsibly.,Responsibility,True,"The description implies a responsible and practical personality, enjoying activities like shopping and cooking. This tone is inconsistent with sometimes behaving irresponsibly.
+
+1"
+59,"Is temperamental, gets emotional easily.",Emotional Volatility,False,"The description implies a calm and social personality, enjoying activities like shopping and cooking with friends. This tone is inconsistent with being temperamental or getting emotional easily.
+
+1"
+60,"Is original, comes up with new ideas",Creative Imagination,False,"The description implies a practical and social personality, enjoying activities like shopping and cooking. This tone is inconsistent with being original or coming up with new ideas.
+
+1"

@@ -9,7 +9,11 @@ csv_folder = '.'
 results = {}
 
 # Gera uma lista de arquivos ordenados pelo número no nome
+<<<<<<< HEAD
 csv_files = [f'testePsycho{num}.csv' for num in range(1, 51)]
+=======
+csv_files = [f'testePsycho{num}.csv' for num in range(1, 11)]
+>>>>>>> 22dce1a (Adicionando primeira versão atualizada pós-férias)
 
 # Percorre os arquivos na ordem correta (de 1 a 40)
 for csv_file in csv_files:
@@ -49,9 +53,14 @@ for csv_file in csv_files:
         print(f"Erro inesperado com {csv_file}: {ex}")
 
 sorted_results = dict(sorted(results.items(), key=lambda item: int(item[0].split('testePsycho')[-1])))
+<<<<<<< HEAD
 output_file = 'scoresPsycho50.json'
 
+=======
+output_file = 'scoresPsycho.json'
+>>>>>>> 22dce1a (Adicionando primeira versão atualizada pós-férias)
 with open(output_file, 'w') as json_file:
     json.dump(sorted_results, json_file, indent=4)
 
 print(f"Resultados salvos em {output_file}")
+

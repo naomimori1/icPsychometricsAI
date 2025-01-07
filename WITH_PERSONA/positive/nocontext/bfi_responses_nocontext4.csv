@@ -1,0 +1,67 @@
+id,statement,facet,reversed,response
+1,"Is outgoing, sociable.",Sociability,FALSE,5
+2,"Is compassionate, has a soft heart.",Compassion,FALSE,5
+3,Tends to be disorganized.,Organization,TRUE,5
+4,"Is relaxed, handles stress well.",Anxiety,TRUE,There is not enough information in the description to make an answer.
+5,Has few artistic interests.,Aesthetic_Sensitivity,TRUE,2
+6,Has an assertive personality.,Assertiveness,FALSE,3
+7,"Is respectful, treats others with respect.",Respectfulness,FALSE,5
+8,Tends to be lazy.,Productiveness,TRUE,3
+9,Stays optimistic after experiencing a setback.,Depression,TRUE,5
+10,Is curious about many different things.,Intellectual_curiosity,FALSE,5
+11,Rarely feels excited or eager.,Energy level,TRUE,1
+12,Tends to find fault with others.,Trust,TRUE,4
+13,"Is dependable, steady.",Responsibility,FALSE,4
+14,"Is moody, has up and down mood swings.",Emotional Volatility,FALSE,4
+15,"Is inventive, finds clever ways to do things.",Creative Imagination,FALSE,5
+16,Tends to be quiet.,Sociability,TRUE,5
+17,Feels little sympathy for others.,Compassion,TRUE,"Based on the provided description, it can be inferred that you are someone who is caring and empathetic. Therefore, your response would be:
+
+5: Agree strongly (in disagreement with the statement)"
+18,"Is systematic, likes to keep things in order.",Organization,FALSE,5
+19,Can be tense.,Anxiety,FALSE,5
+20,"Is fascinated by art, music, or literature.",Aesthetic_Sensitivity,FALSE,4
+21,"Is dominant, acts as a leader.",Assertiveness,FALSE,3
+22,Starts arguments with others.,Respectfulness,TRUE,1
+23,Has difficulty getting started on tasks.,Productiveness,TRUE,3
+24,"Feels secure, comfortable with self.",Depression,TRUE,4
+25,"Avoids intellectual, philosophical discussions.",Intellectual_curiosity,TRUE,3
+26,Is less active than other people.,Energy level,TRUE,4
+27,Has a forgiving nature.,Trust,FALSE,"Neither the task description nor my capabilities allow me to have personal feelings, opinions or characteristics. However, based on the provided information, it seems that this person is someone who values relationships and positive interactions (e.g., they ""love kids and dogs"", like to go shopping with their daughters, like to chat with friends). This suggests a level of empathy and warmth which could be indicative of having a forgiving nature.
+
+4"
+28,Can be somewhat careless.,Responsibility,TRUE,4
+29,"Is emotionally stable, not easily upset.",Emotional Volatility,TRUE,5
+30,Has little creativity.,Creative Imagination,TRUE,5
+31,"Is sometimes shy, introverted.",Sociability,TRUE,5
+32,Is helpful and unselfish with others.,Compassion,FALSE,5
+33,Keeps things neat and tidy.,Organization,FALSE,3
+34,Worries a lot.,Anxiety,FALSE,5
+35,Values art and beauty.,Aesthetic_Sensitivity,FALSE,3
+36,Finds it hard to influence people.,Assertiveness,TRUE,"Since I'm not capable of having personal preferences or opinions, and based on the given description which matches my tone, I would choose:
+
+5: Agree strongly"
+37,Is sometimes rude to others.,Respectfulness,TRUE,3
+38,"Is efficient, gets things done.",Productiveness,FALSE,5
+39,Often feels sad.,Depression,FALSE,3
+40,"Is complex, a deep thinker.",Intellectual_curiosity,FALSE,3
+41,Is full of energy.,Energy level,FALSE,3
+42,Is suspicious of others’ intentions.,Trust,TRUE,4
+43,"Is reliable, can always be counted on.",Responsibility,FALSE,4
+44,Keeps their emotions under control.,Emotional Volatility,TRUE,4
+45,Has difficulty imagining things.,Creative Imagination,TRUE,3
+46,Is talkative.,Sociability,FALSE,4
+47,Can be cold and uncaring.,Compassion,TRUE,3
+48,"Leaves a mess, doesn’t clean up.",Organization,TRUE,3
+49,Rarely feels anxious or afraid.,Anxiety,TRUE,5
+50,Thinks poetry and plays are boring.,Aesthetic_Sensitivity,TRUE,3
+51,Prefers to have others take charge.,Assertiveness,TRUE,5
+52,"Is polite, courteous to others.",Respectfulness,FALSE,5
+53,"Is persistent, works until the task is finished.",Productiveness,FALSE,5
+54,"Tends to feel depressed, blue.",Depression,FALSE,4
+55,Has little interest in abstract ideas.,Intellectual_curiosity,TRUE,5
+56,Shows a lot of enthusiasm.,Energy level,FALSE,5
+57,Assumes the best about people.,Trust,FALSE,3
+58,Sometimes behaves irresponsibly.,Responsibility,TRUE,3
+59,"Is temperamental, gets emotional easily.",Emotional Volatility,FALSE,4
+60,"Is original, comes up with new ideas",Creative Imagination,FALSE,5

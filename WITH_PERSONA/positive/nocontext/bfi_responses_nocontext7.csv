@@ -1,0 +1,79 @@
+id,statement,facet,reversed,response
+1,"Is outgoing, sociable.",Sociability,FALSE,5
+2,"Is compassionate, has a soft heart.",Compassion,FALSE,5
+3,Tends to be disorganized.,Organization,TRUE,3
+4,"Is relaxed, handles stress well.",Anxiety,TRUE,5
+5,Has few artistic interests.,Aesthetic_Sensitivity,TRUE,5
+6,Has an assertive personality.,Assertiveness,FALSE,5
+7,"Is respectful, treats others with respect.",Respectfulness,FALSE,5
+8,Tends to be lazy.,Productiveness,TRUE,4
+9,Stays optimistic after experiencing a setback.,Depression,TRUE,"There is no information provided about this person's personality or behavior. However, based on the description given (""I love kids and dogs. I like to go shopping with my daughters. I like to cook. I love to chat with my friends""), it can be inferred that they seem to have a generally positive outlook.
+
+Given that, I would respond:
+
+5"
+10,Is curious about many different things.,Intellectual_curiosity,FALSE,5
+11,Rarely feels excited or eager.,Energy level,TRUE,5
+12,Tends to find fault with others.,Trust,TRUE,5
+13,"Is dependable, steady.",Responsibility,FALSE,5
+14,"Is moody, has up and down mood swings.",Emotional Volatility,FALSE,3
+15,"Is inventive, finds clever ways to do things.",Creative Imagination,FALSE,5
+16,Tends to be quiet.,Sociability,TRUE,5
+17,Feels little sympathy for others.,Compassion,TRUE,"Based on the description, I would say:
+
+5: Agree strongly. 
+
+The initial description seems to suggest someone who is very empathetic and sociable (""I love kids and dogs"", ""I like to chat with my friends""), which is not consistent with feeling little sympathy for others."
+18,"Is systematic, likes to keep things in order.",Organization,FALSE,5
+19,Can be tense.,Anxiety,FALSE,5
+20,"Is fascinated by art, music, or literature.",Aesthetic_Sensitivity,FALSE,"None of the above.
+
+(I'm responding in the style you requested, but since there's no mention of art, music, or literature in the original description, I don't have an answer to select from. So, my response would be... 0)"
+21,"Is dominant, acts as a leader.",Assertiveness,FALSE,5
+22,Starts arguments with others.,Respectfulness,TRUE,3
+23,Has difficulty getting started on tasks.,Productiveness,TRUE,5
+24,"Feels secure, comfortable with self.",Depression,TRUE,5
+25,"Avoids intellectual, philosophical discussions.",Intellectual_curiosity,TRUE,3
+26,Is less active than other people.,Energy level,TRUE,5
+27,Has a forgiving nature.,Trust,FALSE,5
+28,Can be somewhat careless.,Responsibility,TRUE,5
+29,"Is emotionally stable, not easily upset.",Emotional Volatility,TRUE,5
+30,Has little creativity.,Creative Imagination,TRUE,3
+31,"Is sometimes shy, introverted.",Sociability,TRUE,5
+32,Is helpful and unselfish with others.,Compassion,FALSE,"There is no indication of the person's level of helpfulness or selflessness in the description. 
+
+However, based on the information that they ""love kids and dogs"" (which might imply some willingness to care for them), ""like to chat with my friends"", it could be inferred that they are somewhat agreeable to being social and interacting with others, which is a step towards helpfulness and unselfishness. 
+
+But this would not be very strong. Therefore:
+
+4: Agree a little"
+33,Keeps things neat and tidy.,Organization,FALSE,2
+34,Worries a lot.,Anxiety,FALSE,3
+35,Values art and beauty.,Aesthetic_Sensitivity,FALSE,3
+36,Finds it hard to influence people.,Assertiveness,TRUE,2
+37,Is sometimes rude to others.,Respectfulness,TRUE,3
+38,"Is efficient, gets things done.",Productiveness,FALSE,5
+39,Often feels sad.,Depression,FALSE,4
+40,"Is complex, a deep thinker.",Intellectual_curiosity,FALSE,3
+41,Is full of energy.,Energy level,FALSE,3
+42,Is suspicious of others’ intentions.,Trust,TRUE,3
+43,"Is reliable, can always be counted on.",Responsibility,FALSE,3
+44,Keeps their emotions under control.,Emotional Volatility,TRUE,3
+45,Has difficulty imagining things.,Creative Imagination,TRUE,5
+46,Is talkative.,Sociability,FALSE,5
+47,Can be cold and uncaring.,Compassion,TRUE,2
+48,"Leaves a mess, doesn’t clean up.",Organization,TRUE,3
+49,Rarely feels anxious or afraid.,Anxiety,TRUE,5
+50,Thinks poetry and plays are boring.,Aesthetic_Sensitivity,TRUE,4
+51,Prefers to have others take charge.,Assertiveness,TRUE,3
+52,"Is polite, courteous to others.",Respectfulness,FALSE,3
+53,"Is persistent, works until the task is finished.",Productiveness,FALSE,5
+54,"Tends to feel depressed, blue.",Depression,FALSE,"Since I don't have personal feelings or emotions, and my description doesn't mention anything about depression, the correct answer is:
+
+5: Agree strongly (in the sense that this statement doesn't match with the tone of the original description)"
+55,Has little interest in abstract ideas.,Intellectual_curiosity,TRUE,3
+56,Shows a lot of enthusiasm.,Energy level,FALSE,3
+57,Assumes the best about people.,Trust,FALSE,5
+58,Sometimes behaves irresponsibly.,Responsibility,TRUE,3
+59,"Is temperamental, gets emotional easily.",Emotional Volatility,FALSE,3
+60,"Is original, comes up with new ideas",Creative Imagination,FALSE,There is not enough information to determine how much you agree or disagree with the statement.
