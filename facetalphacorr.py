@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Caminhos dos arquivos
-csv_file = 'sorted_combined_testePsycho.csv'  # Substitua pelo caminho do arquivo CSV
+csv_file = 'combined_FeriasScores_ordered.csv'  # Substitua pelo caminho do arquivo CSV
 json_file = 'bfi2facets.json'  # Substitua pelo caminho do arquivo JSON
 
 # Carregar o JSON da estrutura do BFI-2
@@ -16,7 +16,7 @@ with open(json_file, 'r') as f:
 domain_items = {}
 reversed_items = {}
 for item in bfi_structure["BFI-2"]["items"]:
-    domain = item["facet"]
+    domain = item["domain"]
     if domain not in domain_items:
         domain_items[domain] = []
     domain_items[domain].append(str(item["id"]))

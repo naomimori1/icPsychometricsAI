@@ -97,10 +97,17 @@ def check_normality(data, domain_name, output_dir, report_file):
         write_report(f"Os dados do domínio '{domain_name}' não seguem uma distribuição normal com base nos testes estatísticos.", report_file)
 
 # Ler os arquivos
+<<<<<<< HEAD
 csv_file_path = sys.argv[1]  # Substituir pelo caminho real
 json_file_path = 'bfi2facets.json'  # Substituir pelo caminho real
 output_directory = 'normality_plotsPsycho'  # Substituir pelo caminho desejado
 report_file_path = 'relatorio_normalidadePsycho.txt'  # Caminho do arquivo de relatório
+=======
+csv_file_path = 'combined_FeriasScores_ordered.csv'  # Substituir pelo caminho real
+json_file_path = 'bfi2facets.json'  # Substituir pelo caminho real
+output_directory = 'normality_plotsFerias'  # Substituir pelo caminho desejado
+report_file_path = 'relatorio_normalidade.txt'  # Caminho do arquivo de relatório
+>>>>>>> bf34bdd (Updates de JAN 22)
 
 # Carregar os dados
 data = pd.read_csv(csv_file_path)
