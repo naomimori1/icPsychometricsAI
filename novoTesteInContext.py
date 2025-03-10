@@ -77,10 +77,9 @@ output_data = [
 ]
 
 # WRITE ON CSV FILE
+
 output_file = sys.argv[1]
-with open(output_file, "w", newline="", encoding="utf-8") as csv_file:
-    writer = csv.DictWriter(csv_file, fieldnames=["id", "statement", "facet", "reversed", "response"])
-    writer.writeheader()
-    writer.writerows(output_data)
+with open(output_file, "w", encoding="utf-8") as txt_file:
+    txt_file.write(response)
 
 print(f"Results saved to {output_file}")
