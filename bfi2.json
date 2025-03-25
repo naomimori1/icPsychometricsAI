@@ -1,0 +1,306 @@
+{
+    "BFI-2": {
+        "items": [
+            {
+                "id": 1,
+                "statement": "Is outgoing, sociable.",
+                "reversed": false
+            },
+            {
+                "id": 2,
+                "statement": "Is compassionate, has a soft heart.",
+                "reversed": false
+            },
+            {
+                "id": 3,
+                "statement": "Tends to be disorganized.",
+                "reversed": true
+            },
+            {
+                "id": 4,
+                "statement": "Is relaxed, handles stress well.",
+                "reversed": true
+            },
+            {
+                "id": 5,
+                "statement": "Has few artistic interests.",
+                "reversed": true
+            },
+            {
+                "id": 6,
+                "statement": "Has an assertive personality.",
+                "reversed": false
+            },
+            {
+                "id": 7,
+                "statement": "Is respectful, treats others with respect.",
+                "reversed": false
+            },
+            {
+                "id": 8,
+                "statement": "Tends to be lazy.",
+                "reversed": true
+            },
+            {
+                "id": 9,
+                "statement": "Stays optimistic after experiencing a setback.",
+                "reversed": true
+            },
+            {
+                "id": 10,
+                "statement": "Is curious about many different things.",
+                "reversed": false
+            },
+            {
+                "id": 11,
+                "statement": "Rarely feels excited or eager.",
+                "reversed": true
+            },
+            {
+                "id": 12,
+                "statement": "Tends to find fault with others.",
+                "reversed": true
+            },
+            {
+                "id": 13,
+                "statement": "Is dependable, steady.",
+                "reversed": false
+            },
+            {
+                "id": 14,
+                "statement": "Is moody, has up and down mood swings.",
+                "reversed": false
+            },
+            {
+                "id": 15,
+                "statement": "Is inventive, finds clever ways to do things.",
+                "reversed": false
+            },
+            {
+                "id": 16,
+                "statement": "Tends to be quiet.",
+                "reversed": true
+            },
+            {
+                "id": 17,
+                "statement": "Feels little sympathy for others.",
+                "reversed": true
+            },
+            {
+                "id": 18,
+                "statement": "Is systematic, likes to keep things in order.",
+                "reversed": false
+            },
+            {
+                "id": 19,
+                "statement": "Can be tense.",
+                "reversed": false
+            },
+            {
+                "id": 20,
+                "statement": "Is fascinated by art, music, or literature.",
+                "reversed": false
+            },
+            {
+                "id": 21,
+                "statement": "Is dominant, acts as a leader.",
+                "reversed": false
+            },
+            {
+                "id": 22,
+                "statement": "Starts arguments with others.",
+                "reversed": true
+            },
+            {
+                "id": 23,
+                "statement": "Has difficulty getting started on tasks.",
+                "reversed": true
+            },
+            {
+                "id": 24,
+                "statement": "Feels secure, comfortable with self.",
+                "reversed": true
+            },
+            {
+                "id": 25,
+                "statement": "Avoids intellectual, philosophical discussions.",
+                "reversed": true
+            },
+            {
+                "id": 26,
+                "statement": "Is less active than other people.",
+                "reversed": true
+            },
+            {
+                "id": 27,
+                "statement": "Has a forgiving nature.",
+                "reversed": false
+            },
+            {
+                "id": 28,
+                "statement": "Can be somewhat careless.",
+                "reversed": true
+            },
+            {
+                "id": 29,
+                "statement": "Is emotionally stable, not easily upset.",
+                "reversed": true
+            },
+            {
+                "id": 30,
+                "statement": "Has little creativity.",
+                "reversed": true
+            },
+            {
+                "id": 31,
+                "statement": "Is sometimes shy, introverted.",
+                "reversed": true
+            },
+            {
+                "id": 32,
+                "statement": "Is helpful and unselfish with others.",
+                "reversed": false
+            },
+            {
+                "id": 33,
+                "statement": "Keeps things neat and tidy.",
+                "reversed": false
+            },
+            {
+                "id": 34,
+                "statement": "Worries a lot.",
+                "reversed": false
+            },
+            {
+                "id": 35,
+                "statement": "Values art and beauty.",
+                "reversed": false
+            },
+            {
+                "id": 36,
+                "statement": "Finds it hard to influence people.",
+                "reversed": true
+            },
+            {
+                "id": 37,
+                "statement": "Is sometimes rude to others.",
+                "reversed": true
+            },
+            {
+                "id": 38,
+                "statement": "Is efficient, gets things done.",
+                "reversed": false
+            },
+            {
+                "id": 39,
+                "statement": "Often feels sad.",
+                "reversed": false
+            },
+            {
+                "id": 40,
+                "statement": "Is complex, a deep thinker.",
+                "reversed": false
+            },
+            {
+                "id": 41,
+                "statement": "Is full of energy.",
+                "reversed": false
+            },
+            {
+                "id": 42,
+                "statement": "Is suspicious of others\u2019 intentions.",
+                "reversed": true
+            },
+            {
+                "id": 43,
+                "statement": "Is reliable, can always be counted on.",
+                "reversed": false
+            },
+            {
+                "id": 44,
+                "statement": "Keeps their emotions under control.",
+                "reversed": true
+            },
+            {
+                "id": 45,
+                "statement": "Has difficulty imagining things.",
+                "reversed": true
+            },
+            {
+                "id": 46,
+                "statement": "Is talkative.",
+                "reversed": false
+            },
+            {
+                "id": 47,
+                "statement": "Can be cold and uncaring.",
+                "reversed": true
+            },
+            {
+                "id": 48,
+                "statement": "Leaves a mess, doesn\u2019t clean up.",
+                "reversed": true
+            },
+            {
+                "id": 49,
+                "statement": "Rarely feels anxious or afraid.",
+                "reversed": true
+            },
+            {
+                "id": 50,
+                "statement": "Thinks poetry and plays are boring.",
+                "reversed": true
+            },
+            {
+                "id": 51,
+                "statement": "Prefers to have others take charge.",
+                "reversed": true
+            },
+            {
+                "id": 52,
+                "statement": "Is polite, courteous to others.",
+                "reversed": false
+            },
+            {
+                "id": 53,
+                "statement": "Is persistent, works until the task is finished.",
+                "reversed": false
+            },
+            {
+                "id": 54,
+                "statement": "Tends to feel depressed, blue.",
+                "reversed": false
+            },
+            {
+                "id": 55,
+                "statement": "Has little interest in abstract ideas.",
+                "reversed": true
+            },
+            {
+                "id": 56,
+                "statement": "Shows a lot of enthusiasm.",
+                "reversed": false
+            },
+            {
+                "id": 57,
+                "statement": "Assumes the best about people.",
+                "reversed": false
+            },
+            {
+                "id": 58,
+                "statement": "Sometimes behaves irresponsibly.",
+                "reversed": true
+            },
+            {
+                "id": 59,
+                "statement": "Is temperamental, gets emotional easily.",
+                "reversed": false
+            },
+            {
+                "id": 60,
+                "statement": "Is original, comes up with new ideas",
+                "reversed": false
+            }
+        ]
+    }
+}
