@@ -5,971 +5,473 @@
                 "id": 1,
                 "statement": "Is outgoing, sociable.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Sociability",
                 "domain": "Extraversion"
 	    },
-=======
-                "facet": "Sociability"
-            },
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Sociability",
-                "domain": "Extraversion"
-	    },
->>>>>>> bf34bdd (Updates de JAN 22)
+
             {
                 "id": 2,
                 "statement": "Is compassionate, has a soft heart.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Compassion",
                 "domain": "Agreeableness"
-=======
-                "facet": "Compassion"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Compassion",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
             },
             {
                 "id": 3,
                 "statement": "Tends to be disorganized.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Organization",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Organization"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Organization",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
             },
             {
                 "id": 4,
                 "statement": "Is relaxed, handles stress well.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Anxiety",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Anxiety"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Anxiety",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
             },
             {
                 "id": 5,
                 "statement": "Has few artistic interests.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Aesthetic_Sensitivity",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Aesthetic_Sensitivity"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Aesthetic_Sensitivity",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
             },
             {
                 "id": 6,
                 "statement": "Has an assertive personality.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Assertiveness",
                 "domain": "Extraversion"
-=======
-                "facet": "Assertiveness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Assertiveness",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
             },
             {
                 "id": 7,
                 "statement": "Is respectful, treats others with respect.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Respectfulness",
                 "domain": "Agreeableness"
-=======
-                "facet": "Respectfulness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Respectfulness",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
             },
             {
                 "id": 8,
                 "statement": "Tends to be lazy.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Productiveness",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Productiveness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Productiveness",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
             },
             {
                 "id": 9,
                 "statement": "Stays optimistic after experiencing a setback.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Depression",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Depression"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Depression",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
             },
             {
                 "id": 10,
                 "statement": "Is curious about many different things.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Intellectual_curiosity",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Intellectual_curiosity"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Intellectual_curiosity",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
             },
             {
                 "id": 11,
                 "statement": "Rarely feels excited or eager.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Energy level",
                 "domain": "Extraversion"
-=======
-                "facet": "Energy level"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Energy level",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 12,
                 "statement": "Tends to find fault with others.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Trust",
                 "domain": "Agreeableness"
-=======
-                "facet": "Trust"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Trust",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 13,
                 "statement": "Is dependable, steady.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Responsibility",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Responsibility"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Responsibility",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 14,
                 "statement": "Is moody, has up and down mood swings.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Emotional Volatility",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Emotional Volatility"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Emotional Volatility",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 15,
                 "statement": "Is inventive, finds clever ways to do things.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Creative Imagination",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Creative Imagination"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Creative Imagination",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 16,
                 "statement": "Tends to be quiet.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Sociability",
                 "domain": "Extraversion"
-=======
-                "facet": "Sociability"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Sociability",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 17,
                 "statement": "Feels little sympathy for others.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Compassion",
                 "domain": "Agreeableness"
-=======
-                "facet": "Compassion"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Compassion",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 18,
                 "statement": "Is systematic, likes to keep things in order.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Organization",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Organization"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Organization",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 19,
                 "statement": "Can be tense.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Anxiety",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Anxiety"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Anxiety",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 20,
                 "statement": "Is fascinated by art, music, or literature.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Aesthetic_Sensitivity",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Aesthetic_Sensitivity"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Aesthetic_Sensitivity",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 21,
                 "statement": "Is dominant, acts as a leader.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Assertiveness",
                 "domain": "Extraversion"
-=======
-                "facet": "Assertiveness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Assertiveness",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 22,
                 "statement": "Starts arguments with others.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Respectfulness",
                 "domain": "Agreeableness"
-=======
-                "facet": "Respectfulness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Respectfulness",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 23,
                 "statement": "Has difficulty getting started on tasks.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Productiveness",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Productiveness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Productiveness",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 24,
                 "statement": "Feels secure, comfortable with self.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Depression",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Depression"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Depression",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 25,
                 "statement": "Avoids intellectual, philosophical discussions.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Intellectual_curiosity",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Intellectual_curiosity"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Intellectual_curiosity",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 26,
                 "statement": "Is less active than other people.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Energy level",
                 "domain": "Extraversion"
-=======
-                "facet": "Energy level"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Energy level",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 27,
                 "statement": "Has a forgiving nature.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Trust",
                 "domain": "Agreeableness"
-=======
-                "facet": "Trust"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Trust",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 28,
                 "statement": "Can be somewhat careless.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Responsibility",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Responsibility"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Responsibility",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 29,
                 "statement": "Is emotionally stable, not easily upset.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Emotional Volatility",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Emotional Volatility"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Emotional Volatility",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 30,
                 "statement": "Has little creativity.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Creative Imagination",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Creative Imagination"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Creative Imagination",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 31,
                 "statement": "Is sometimes shy, introverted.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Sociability",
                 "domain": "Extraversion"
-=======
-                "facet": "Sociability"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Sociability",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 32,
                 "statement": "Is helpful and unselfish with others.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Compassion",
                 "domain": "Agreeableness"
-=======
-                "facet": "Compassion"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Compassion",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 33,
                 "statement": "Keeps things neat and tidy.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Organization",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Organization"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Organization",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 34,
                 "statement": "Worries a lot.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Anxiety",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Anxiety"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Anxiety",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 35,
                 "statement": "Values art and beauty.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Aesthetic_Sensitivity",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Aesthetic_Sensitivity"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Aesthetic_Sensitivity",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 36,
                 "statement": "Finds it hard to influence people.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Assertiveness",
                 "domain": "Extraversion"
-=======
-                "facet": "Assertiveness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Assertiveness",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 37,
                 "statement": "Is sometimes rude to others.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Respectfulness",
                 "domain": "Agreeableness"
-=======
-                "facet": "Respectfulness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Respectfulness",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 38,
                 "statement": "Is efficient, gets things done.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Productiveness",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Productiveness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Productiveness",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 39,
                 "statement": "Often feels sad.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Depression",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Depression"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Depression",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 40,
                 "statement": "Is complex, a deep thinker.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Intellectual_curiosity",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Intellectual_curiosity"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Intellectual_curiosity",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 41,
                 "statement": "Is full of energy.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Energy level",
                 "domain": "Extraversion"
-=======
-                "facet": "Energy level"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Energy level",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 42,
                 "statement": "Is suspicious of others\u2019 intentions.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Trust",
                 "domain": "Agreeableness"
-=======
-                "facet": "Trust"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Trust",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 43,
                 "statement": "Is reliable, can always be counted on.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Responsibility",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Responsibility"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Responsibility",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 44,
                 "statement": "Keeps their emotions under control.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Emotional Volatility",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Emotional Volatility"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Emotional Volatility",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 45,
                 "statement": "Has difficulty imagining things.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Creative Imagination",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Creative Imagination"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Creative Imagination",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 46,
                 "statement": "Is talkative.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Sociability",
                 "domain": "Extraversion"
-=======
-                "facet": "Sociability"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Sociability",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 47,
                 "statement": "Can be cold and uncaring.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Compassion",
                 "domain": "Agreeableness"
-=======
-                "facet": "Compassion"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Compassion",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 48,
                 "statement": "Leaves a mess, doesn\u2019t clean up.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Organization",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Organization"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Organization",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 49,
                 "statement": "Rarely feels anxious or afraid.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Anxiety",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Anxiety"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Anxiety",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 50,
                 "statement": "Thinks poetry and plays are boring.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Aesthetic_Sensitivity",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Aesthetic_Sensitivity"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Aesthetic_Sensitivity",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 51,
                 "statement": "Prefers to have others take charge.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Assertiveness",
                 "domain": "Extraversion"
-=======
-                "facet": "Assertiveness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Assertiveness",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 52,
                 "statement": "Is polite, courteous to others.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Respectfulness",
                 "domain": "Agreeableness"
-=======
-                "facet": "Respectfulness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Respectfulness",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 53,
                 "statement": "Is persistent, works until the task is finished.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Productiveness",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Productiveness"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Productiveness",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 54,
                 "statement": "Tends to feel depressed, blue.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Depression",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Depression"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Depression",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 55,
                 "statement": "Has little interest in abstract ideas.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Intellectual_curiosity",
                 "domain": "Open_Mindedness"
-=======
-                "facet": "Intellectual_curiosity"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Intellectual_curiosity",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 56,
                 "statement": "Shows a lot of enthusiasm.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Energy level",
                 "domain": "Extraversion"
-=======
-                "facet": "Energy level"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Energy level",
-                "domain": "Extraversion"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 57,
                 "statement": "Assumes the best about people.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Trust",
                 "domain": "Agreeableness"
-=======
-                "facet": "Trust"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Trust",
-                "domain": "Agreeableness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 58,
                 "statement": "Sometimes behaves irresponsibly.",
                 "reversed": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Responsibility",
                 "domain": "Conscientiousness"
-=======
-                "facet": "Responsibility"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Responsibility",
-                "domain": "Conscientiousness"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 59,
                 "statement": "Is temperamental, gets emotional easily.",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Emotional Volatility",
                 "domain": "Negative_Emotionality"
-=======
-                "facet": "Emotional Volatility"
->>>>>>> 3dcc185 (add .json files)
-=======
-                "facet": "Emotional Volatility",
-                "domain": "Negative_Emotionality"
->>>>>>> bf34bdd (Updates de JAN 22)
+
             },
             {
                 "id": 60,
                 "statement": "Is original, comes up with new ideas",
                 "reversed": false,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "facet": "Creative Imagination",
                 "domain": "Open_Mindedness"
+
             }
-        ]
+          ]
     }
 }
-=======
-                "facet": "Creative Imagination"
-=======
-                "facet": "Creative Imagination",
-                "domain": "Open_Mindedness"
->>>>>>> bf34bdd (Updates de JAN 22)
-            }
-        ]
-    }
-}
-<<<<<<< HEAD
->>>>>>> 3dcc185 (add .json files)
-=======
->>>>>>> bf34bdd (Updates de JAN 22)
