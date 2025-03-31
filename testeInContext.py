@@ -3,14 +3,9 @@ import csv
 import json
 import random
 import sys
+import subprocess
 
-modelfile = '''
-FROM llama2:7b
-PARAMETER temperature 0.02
-SYSTEM "You are a helpful assistant who can only reply with numbers from 1 to 5, and nothing else."
-'''
-
-ollama.create(model='llama2:7b', modelfile=modelfile)
+subprocess.run(["ollama", "create", "llama3.1", "-f", "Modelfile"], check=True)
 json_file = "bfi2facets.json"
 
 # Carregar os itens do questionário BFI-2
@@ -40,16 +35,8 @@ def query_model(prompt, messages):
         'role': 'user',
         'content': prompt,
     })
-<<<<<<< HEAD
-    response = ollama.chat(model='llama2:7b', messages=messages)
-    messages.append({
-        'role': 'assistant',
-        'content': response['message']['content'],
-    })    
 
-=======
->>>>>>> f9231f9 (Update nov 26th 4pm)
-    response = ollama.chat(model='llama2:7b', messages=messages)
+    response = ollama.chat(model='llama3.1', messages=messages)
 
     # Adicionar a resposta do modelo ao histórico
     messages.append({

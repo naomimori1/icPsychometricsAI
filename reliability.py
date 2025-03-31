@@ -3,6 +3,7 @@ import numpy as np
 import json
 from scipy.stats import pearsonr
 from itertools import combinations
+from numpy.linalg import eigvals
 
 def load_data(csv_path, json_path):
     df = pd.read_csv(csv_path)
@@ -47,6 +48,14 @@ def cronbach_alpha(df, items):
     k = len(items)
     return (k / (k - 1)) * (1 - sum(item_variances) / total_variance)
 
+def omega_mcdonald(df, items):
+    item_scores = np.array([df[item[0]] for item in items])
+    cov_matrix = np.cov(item_scores)
+    total_variance = np.sum(cov_matrix)
+    first_eigenvalue = max(eigvals(cov_matrix))
+    omega = first_eigenvalue / total_variance if total_variance > 0 else 0
+    return omega
+
 def analyze_reliability(csv_path, json_path):
     df, bfi2_info = load_data(csv_path, json_path)
     df, domain_items = process_data(df, bfi2_info)
@@ -55,10 +64,12 @@ def analyze_reliability(csv_path, json_path):
         avg_corr = average_inter_correlation(df, items)
         split_half = split_half_reliability(df, items)
         alpha = cronbach_alpha(df, items)
+        omega = omega_mcdonald(df, items)
         results[domain] = {
             "Average Inter-Correlation": avg_corr,
             "Split-Half Reliability": split_half,
-            "Cronbach's Alpha": alpha
+            "Cronbach's Alpha": alpha,
+            "McDonald's Omega": omega
         }
     return results
 
@@ -69,4 +80,3 @@ if __name__ == "__main__":
         for metric, value in metrics.items():
             print(f"  {metric}: {value:.3f}")
         print()
-
