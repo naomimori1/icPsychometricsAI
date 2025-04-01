@@ -5,17 +5,33 @@ import random
 import sys
 import subprocess
 
-subprocess.run(["ollama", "create", "llama3.1", "-f", "Modelfile"], check=True)
-json_file = "bfi2facets.json"
+def inicializa(modelfile,jsonfile):
+    # Lê o conteúdo do modelfile (inclui a persona e config do modelo)
+    with open(modelfile, 'r') as f:
+        model = f.readline().strip().split(sep=' ')[1]
+        model_lines = set(f.read().splitlines()[1:])
 
-# Carregar os itens do questionário BFI-2
-json_file = "bfi2facets.json"
-with open(json_file, "r") as f:
-    bfi_data = json.load(f)
+    with open("out.txt", "w") as f:
+        subprocess.run(["ollama", "show", "--modelfile", model], stdout=f, check=True)
+    
+    with open('out.txt', 'r') as f:
+        out_lines = set(f.read().splitlines())
 
-# Extrair os itens do questionário
-bfi_items = bfi_data["BFI-2"]["items"]
-random.shuffle(bfi_items)
+    # Verifica se o modelo está presente no arquivo de saída
+    result = model_lines.issubset(out_lines)
+
+    # Cria o modelo, se não existir
+    if (not result):
+        subprocess.run(["ollama", "create", "llama3.1", "-f", "Modelfile"], check=True)
+    
+    with open(jsonfile, "r") as f:
+        bfi_data = json.load(f)
+
+    # Extrair os itens do questionário
+    bfi_items = bfi_data["BFI-2"]["items"]
+    random.shuffle(bfi_items)
+
+    return bfi_items
 
 prompt_template = (
     "Here are a number of characteristics that may or may not apply to you. "
@@ -46,16 +62,29 @@ def query_model(prompt, messages):
     
     return response['message']['content']
 
-output_file = sys.argv[1]
+def main():
+    # Verifica se o número correto de argumentos foi fornecido
+    if len(sys.argv) != 2:
+        print("Uso: python script.py <output_file>")
+        sys.exit(1)
 
-with open(output_file, mode="w", newline="") as file:
-    writer = csv.writer(file)
-    writer.writerow(["id", "statement", "facet", "reversed", "response"])
+    modelfile = "Modelfile"
+    json_file = "bfi2facets.json"
+    bfi_items = inicializa(modelfile, json_file)
 
-    for item in bfi_items:
-        prompt = generate_prompt(item["statement"]) 
-        response = query_model(prompt, messages) 
-        # Escrever os resultados no arquivo CSV
-        writer.writerow([item["id"], item["statement"], item["facet"], item["reversed"], response])
+    output_file = sys.argv[1]
 
-print(f"Respostas salvas no arquivo {output_file}.")
+    with open(output_file, mode="w", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerow(["id", "statement", "facet", "reversed", "response"])
+
+        for item in bfi_items:
+            prompt = generate_prompt(item["statement"]) 
+            response = query_model(prompt, messages) 
+            # Escrever os resultados no arquivo CSV
+            writer.writerow([item["id"], item["statement"], item["facet"], item["reversed"], response])
+
+    print(f"Respostas salvas no arquivo {output_file}.")
+
+if __name__ == "__main__":
+    main()
