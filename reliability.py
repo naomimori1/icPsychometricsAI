@@ -5,23 +5,15 @@ import random
 from scipy.stats import pearsonr
 from itertools import combinations
 from numpy.linalg import eigvals
+from factor_analyzer import FactorAnalyzer
 
 def load_data(csv_path, json_path):
     """Carrega os dados do CSV e as informações do questionário do JSON."""
-    try:
-        df = pd.read_csv(csv_path)
-        with open(json_path, 'r') as f:
-            bfi2_info = json.load(f)["BFI-2"]["items"]
-        for item in bfi2_info:
-            if item["reversed"]:
-                df[str(item["id"])] = 6 - df[str(item["id"])]  # Assumindo escala 1-5
-        return df, bfi2_info
-    except FileNotFoundError as e:
-        raise FileNotFoundError(f"Erro ao carregar arquivos: {e}")
-    except json.JSONDecodeError as e:
-        raise ValueError(f"Erro ao decodificar JSON: {e}")
-    except KeyError as e:
-        raise KeyError(f"Estrutura do JSON não contém a chave esperada: {e}")
+    df = pd.read_csv(csv_path)
+    with open(json_path, 'r') as f:
+        bfi2_info = json.load(f)["BFI-2"]["items"]
+
+    return df, bfi2_info
 
 def process_data(df, bfi2_info):
     """Processa os dados, invertendo itens quando necessário e organizando por domínio."""
@@ -69,63 +61,74 @@ def split_half_reliability(df, items):
     if len(items) < 2:
         return np.nan
     
-    # Cria cópia para não alterar a lista original
+    # Embaralha e divide os itens ao meio
     shuffled_items = random.sample(items, len(items))
-    
     half = len(shuffled_items) // 2
-    part1 = sum(df[item[0]].fillna(0) for item in shuffled_items[:half])
-    part2 = sum(df[item[0]].fillna(0) for item in shuffled_items[half:half*2])
     
-    # Remove linhas com todos os valores faltantes
-    valid_data = df[[item[0] for item in shuffled_items]].dropna(how='all')
+    part1_items = [item[0] for item in shuffled_items[:half]]
+    part2_items = [item[0] for item in shuffled_items[half:half * 2]]
+    
+    # Calcula a média dos escores de cada metade
+    part1 = df[part1_items].mean(axis=1, skipna=True)
+    part2 = df[part2_items].mean(axis=1, skipna=True)
+    
+    # Remove valores ausentes
+    valid_data = pd.concat([part1, part2], axis=1).dropna()
     if len(valid_data) < 3:
         return np.nan
     
-    r, _ = pearsonr(part1, part2)
+    r, _ = pearsonr(valid_data.iloc[:, 0], valid_data.iloc[:, 1])
     return (2 * r) / (1 + r) if not np.isnan(r) else np.nan
 
 def cronbach_alpha(df, items):
-    """Calcula o coeficiente Alpha de Cronbach."""
+    """Calcula o coeficiente Alfa de Cronbach."""
     if len(items) < 2:
         return np.nan
-    
-    item_scores = np.array([df[item[0]] for item in items if item[0] in df.columns])
+
+    # Extrai os escores dos itens do DataFrame
+    item_scores = np.array([df[item[0]] for item in items if item[0] in df.columns]).T  # Transposta para alinhar com a nova função
+
     if item_scores.size == 0:
         return np.nan
-    
-    item_variances = np.var(item_scores, axis=1, ddof=1)
-    total_scores = np.sum(item_scores, axis=0)
-    total_variance = np.var(total_scores, ddof=1)
-    
-    if total_variance == 0:
+
+    # Calcula o Alfa de Cronbach conforme a nova definição
+    item_vars = item_scores.var(axis=0, ddof=1)
+    total_var = item_scores.sum(axis=1).var(ddof=1)
+    n_items = item_scores.shape[1]
+
+    if total_var == 0:
         return np.nan
-    
-    k = len(item_scores)
-    return (k / (k - 1)) * (1 - np.sum(item_variances) / total_variance)
+
+    return (n_items / (n_items - 1)) * (1 - item_vars.sum() / total_var)
+
+
 
 def omega_mcdonald(df, items):
-    """Calcula o coeficiente Omega de McDonald (hierárquico)."""
+    """Calcula o coeficiente Ômega Hierárquico (\(\omega_h\)) corretamente."""
     if len(items) < 2:
         return np.nan
-    
-    item_scores = np.array([df[item[0]] for item in items if item[0] in df.columns])
+
+    item_scores = np.array([df[item[0]].values for item in items if item[0] in df.columns]).T
     if item_scores.size == 0:
         return np.nan
-    
-    # Remove observações com valores faltantes
-    item_scores = item_scores[:, ~np.isnan(item_scores).any(axis=0)]
-    if item_scores.shape[1] < 3:  # Mínimo 3 observações
+
+    # Calcula matriz de correlação
+    corr_matrix = np.corrcoef(item_scores, rowvar=False)
+
+    # Verifica se a matriz de correlação é positiva definida
+    if np.any(eigvals(corr_matrix) <= 0):
         return np.nan
-    
-    cov_matrix = np.cov(item_scores)
-    total_variance = np.sum(cov_matrix)
-    
-    if total_variance == 0:
-        return np.nan
-    
-    eigenvalues = np.real(eigvals(cov_matrix))
-    first_eigenvalue = max(eigenvalues)
-    return first_eigenvalue / total_variance
+
+    fa = FactorAnalyzer(n_factors=1, method='ml', rotation=None)
+    fa.fit(corr_matrix)
+    loadings = fa.loadings_
+    general_factor_variance = np.sum(loadings**2)
+    total_variance = np.sum(np.diag(corr_matrix))
+
+    # Calcula Omega_h
+    omega_h = general_factor_variance / total_variance if total_variance > 0 else np.nan
+
+    return omega_h
 
 def analyze_reliability(csv_path, json_path):
     """Executa a análise completa de confiabilidade para todos os domínios."""
@@ -141,27 +144,13 @@ def analyze_reliability(csv_path, json_path):
         if len(valid_items) < 2:
             print(f"Aviso: Domínio {domain} tem menos de 2 itens válidos. Ignorando.")
             continue
-        
-        try:
-            results[domain] = {
-                "Average Inter-Correlation": average_inter_correlation(df, valid_items),
-                "Split-Half Reliability": split_half_reliability(df, valid_items),
-                "Cronbach's Alpha": cronbach_alpha(df, valid_items),
-                "McDonald's Omega": omega_mcdonald(df, valid_items),
-                "Number of Items": len(valid_items),
-                "Sample Size": len(df.dropna(subset=[item[0] for item in valid_items]))
-            }
-        except Exception as e:
-            print(f"Erro ao calcular métricas para {domain}: {str(e)}")
-            results[domain] = {
-                "Average Inter-Correlation": np.nan,
-                "Split-Half Reliability": np.nan,
-                "Cronbach's Alpha": np.nan,
-                "McDonald's Omega": np.nan,
-                "Number of Items": len(valid_items),
-                "Sample Size": len(df.dropna(subset=[item[0] for item in valid_items]))
-            }
-    
+
+        results[domain] = {
+            "Average Inter-Correlation": average_inter_correlation(df, valid_items),
+            "Split-Half Reliability": split_half_reliability(df, valid_items),
+            "Cronbach's Alpha": cronbach_alpha(df, valid_items),
+            "McDonald's Omega": omega_mcdonald(df, valid_items)
+        }
     return results
 
 if __name__ == "__main__":
