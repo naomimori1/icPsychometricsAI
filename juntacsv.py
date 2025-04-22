@@ -26,7 +26,7 @@ def merge_and_transform_csv(output_file):
 
     # Percorre todos os arquivos no diretório atual com o padrão 'testPsycho{num}.csv'
     for filename in os.listdir("."):
-        if filename.startswith("testePsycho") and filename.endswith(".csv"):
+        if filename.startswith("bfiL3Psycho") and filename.endswith(".csv"):
             print(f"Lendo o arquivo: {filename}")
             try:
                 # Lê o arquivo atual
