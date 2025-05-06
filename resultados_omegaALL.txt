@@ -1,0 +1,109 @@
+Omega 
+Call: omegah(m = m, nfactors = nfactors, fm = fm, key = key, flip = flip, 
+    digits = digits, title = title, sl = sl, labels = labels, 
+    plot = plot, n.obs = n.obs, rotate = rotate, Phi = Phi, option = option, 
+    covar = covar)
+Alpha:                 0.87 
+G.6:                   0.97 
+Omega Hierarchical:    0.81 
+Omega H asymptotic:    0.92 
+Omega Total            0.88 
+
+Schmid Leiman Factor loadings greater than  0.2 
+        g  F1*   h2   h2   u2 p2 com
+X33  0.33           0.11 0.89  1   1
+X41  0.22           0.05 0.95  1   1
+X40  0.80      0.64 0.64 0.36  1   1
+X1   0.44           0.19 0.81  1   1
+X26- 0.24           0.06 0.94  1   1
+X16  0.55      0.30 0.30 0.70  1   1
+X52-                0.00 1.00  1   1
+X48-                0.02 0.98  1   1
+X46  0.52      0.27 0.27 0.73  1   1
+X42                 0.01 0.99  1   1
+X27                 0.02 0.98  1   1
+X59-                0.00 1.00  1   1
+X47-                0.02 0.98  1   1
+X55                 0.00 1.00  1   1
+X34-                0.00 1.00  1   1
+X19                 0.00 1.00  1   1
+X5-                 0.03 0.97  1   1
+X18  0.24           0.06 0.94  1   1
+X56-                0.00 1.00  1   1
+X43  0.77      0.59 0.59 0.41  1   1
+X10                 0.00 1.00  1   1
+X30                 0.00 1.00  1   1
+X54-                0.00 1.00  1   1
+X20  0.84      0.71 0.71 0.29  1   1
+X31                 0.03 0.97  1   1
+X60  0.96      0.93 0.93 0.07  1   1
+X36-                0.02 0.98  1   1
+X11-                0.00 1.00  1   1
+X25-                0.03 0.97  1   1
+X8   0.24           0.06 0.94  1   1
+X35  0.87      0.76 0.76 0.24  1   1
+X21  0.75      0.57 0.57 0.43  1   1
+X53  0.57      0.33 0.33 0.67  1   1
+X23-                0.01 0.99  1   1
+X50-                0.00 1.00  1   1
+X58                 0.00 1.00  1   1
+X38  0.80      0.63 0.63 0.37  1   1
+X51                 0.03 0.97  1   1
+X17-                0.02 0.98  1   1
+X13  0.50      0.25 0.25 0.75  1   1
+X4   0.58      0.34 0.34 0.66  1   1
+X9   0.43           0.19 0.81  1   1
+X45-                0.00 1.00  1   1
+X37-                0.00 1.00  1   1
+X57                 0.00 1.00  1   1
+X3                  0.01 0.99  1   1
+X15  0.90      0.81 0.81 0.19  1   1
+X22-                0.00 1.00  1   1
+X14-                0.00 1.00  1   1
+X2   0.71      0.50 0.50 0.50  1   1
+X44  0.38           0.15 0.85  1   1
+X29  0.47      0.22 0.22 0.78  1   1
+X39  0.25           0.06 0.94  1   1
+X12-                0.00 1.00  1   1
+X49                 0.02 0.98  1   1
+X28  0.50      0.25 0.25 0.75  1   1
+X32  0.24           0.06 0.94  1   1
+X24                 0.03 0.97  1   1
+X6   0.81      0.66 0.66 0.34  1   1
+X7-  0.48      0.23 0.23 0.77  1   1
+
+With Sums of squares  of:
+   g  F1*   h2 
+10.3  0.0  5.5 
+
+general/max  1.87   max/min =   8.884398e+15
+mean percent general =  1    with sd =  0 and cv of  0 
+Explained Common Variance of the general factor =  1 
+
+The degrees of freedom are 1710  and the fit is  279.32 
+The number of observations was  50  with Chi Square =  7681.33  with prob <  0
+The root mean square of the residuals is  0.18 
+The df corrected root mean square of the residuals is  0.18
+RMSEA index =  0.263  and the 90 % confidence intervals are  0.261 0.273
+BIC =  991.77
+
+Compare this with the adequacy of just a general factor and no group factors
+The degrees of freedom for just the general factor are 1710  and the fit is  279.32 
+The number of observations was  50  with Chi Square =  7681.33  with prob <  0
+The root mean square of the residuals is  0.18 
+The df corrected root mean square of the residuals is  0.18 
+
+RMSEA index =  0.263  and the 90 % confidence intervals are  0.261 0.273
+BIC =  991.77 
+
+Measures of factor score adequacy             
+                                                 g F1*
+Correlation of scores with factors            0.99   0
+Multiple R square of scores with factors      0.99   0
+Minimum correlation of factor score estimates 0.98  -1
+
+ Total, General and Subset omega for each subset
+                                                 g  F1*
+Omega total for total scores and subscales    0.88 0.81
+Omega general for total scores and subscales  0.81 0.81
+Omega group for total scores and subscales    0.00 0.00
