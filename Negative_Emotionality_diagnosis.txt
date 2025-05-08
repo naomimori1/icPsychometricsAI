@@ -1,0 +1,98 @@
+
+Information about this analysis:
+
+                 Dataframe: res$dat
+                     Items: X4, X9, X14, X19, X24, X29, X34, X39, X44, X49, X54, X59
+              Observations: 50
+     Positive correlations: 46 out of 66 (70%)
+
+Estimates assuming interval level:
+
+             Omega (total): 0.76
+      Omega (hierarchical): 0.39
+   Revelle's omega (total): 0.76
+Greatest Lower Bound (GLB): 0.86
+             Coefficient H: 0.84
+         Coefficient alpha: 0.55
+
+(Estimates assuming ordinal level not computed, as the polychoric correlation matrix has missing values.)
+
+Note: the normal point estimate and confidence interval for omega are based on the procedure suggested by Dunn, Baguley & Brunsden (2013) using the MBESS function ci.reliability, whereas the psych package point estimate was suggested in Revelle & Zinbarg (2008). See the help ('?scaleStructure') for more information.
+
+
+Eigen values: 3.2, 1.926, 1.322, 1.031, 0.945, 0.813, 0.775, 0.567, 0.465, 0.381, 0.353, 0.222
+
+Factor analysis (reproducing only shared variance):
+
+
+Loadings:
+    ML3    ML1    ML2    ML4   
+X4                 0.994       
+X9          0.360         0.305
+X14  0.417        -0.119  0.472
+X19  0.606        -0.127       
+X24  0.122         0.255       
+X29         1.000              
+X34  0.772                0.101
+X39  0.758 -0.101        -0.156
+X44                0.211  0.673
+X49 -0.427  0.225        -0.124
+X54  0.652  0.118  0.136       
+X59               -0.226  0.537
+
+                 ML3   ML1   ML2   ML4
+SS loadings    2.334 1.221 1.214 1.120
+Proportion Var 0.195 0.102 0.101 0.093
+Cumulative Var 0.195 0.296 0.397 0.491
+
+
+Component analysis (reproducing full covariance matrix):
+
+
+Loadings:
+    TC1    TC2    TC3    TC4   
+X4          0.538         0.542
+X9          0.595  0.343       
+X14  0.485         0.505 -0.140
+X19  0.745               -0.118
+X24                       0.842
+X29         0.849              
+X34  0.795         0.129       
+X39  0.843 -0.113 -0.212       
+X44         0.288  0.682       
+X49 -0.349  0.397 -0.307 -0.378
+X54  0.695  0.152         0.211
+X59        -0.129  0.812       
+
+                 TC1   TC2   TC3   TC4
+SS loadings    2.762 1.671 1.658 1.227
+Proportion Var 0.230 0.139 0.138 0.102
+Cumulative Var 0.230 0.369 0.508 0.610
+
+
+    mean median    var     sd IQR     se min   q1 q3 max    skew    kurt  dip
+X4   1.3      1 0.4592 0.6776   0 0.0958   1 <NA>  3   3  2.0086  2.4048 0.06
+X9  1.42      1 0.4935 0.7025   1 0.0993   1 <NA>  2   3     1.4   0.549 0.09
+X14 3.46      4 2.2535 1.5012   2 0.2123   1    1  5   5 -0.8059 -0.8555 0.13
+X19  3.7      4  0.949 0.9742   0 0.1378   1    1  5   5  -2.111  3.8596 0.05
+X24  1.1      1 0.1735 0.4165   0 0.0589   1 <NA>  3   3   4.237 17.2941 0.02
+X29 1.26      1 0.5229 0.7231   0 0.1023   1 <NA>  2   5  3.6064  15.006 0.05
+X34  3.7      4 1.5204  1.233   0 0.1744   1    1  5   5 -1.2995  0.8471 0.11
+X39 3.96      4 1.2637 1.1241   1  0.159   1  2.5  5   5 -1.4451  1.8047 0.17
+X44 1.66      2 0.4331 0.6581   1 0.0931   1    1  3   3   0.493 -0.6587 0.22
+X49 2.76      2 2.7576 1.6606   4 0.2348   1    1  5   5   0.427   -1.52 0.16
+X54 3.54      4 2.0902 1.4458   1 0.2045   1    1  5   5 -0.9905 -0.4807 0.12
+X59 3.72      4 1.5118 1.2296   0 0.1739   1    1  5   5 -1.3572  0.9847 0.11
+     n NA valid
+X4  50  0    50
+X9  50  0    50
+X14 50  0    50
+X19 50  0    50
+X24 50  0    50
+X29 50  0    50
+X34 50  0    50
+X39 50  0    50
+X44 50  0    50
+X49 50  0    50
+X54 50  0    50
+X59 50  0    50
