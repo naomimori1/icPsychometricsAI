@@ -1,3 +1,6 @@
+#ADQUIRIDO USANDO O MESMO SCRIPT MOSTRADO EM "CHALLENGING THE VALIDITY OF PERSONALITY TESTS IN LLMS"
+
+
 Principal Components Analysis
 Call: psych::principal(r = item_scores, nfactors = ncomp, rotate = "varimax", 
     scores = TRUE)
@@ -77,33 +80,4 @@ Test of the hypothesis that 5 components are sufficient.
 The root mean square of the residuals (RMSR) is  0.08 
  with the empirical chi square  1164.86  with prob <  1 
 
-Fit based upon off diagonal values = 0.89function (file = NULL, append = FALSE, type = c("output", "message"), 
-    split = FALSE) 
-{
-    type <- match.arg(type)
-    if (type == "message") {
-        if (is.null(file)) 
-            file <- stderr()
-        else if (!inherits(file, "connection") || !isOpen(file)) 
-            stop("'file' must be NULL or an already open connection")
-        if (split) 
-            stop("cannot split the message connection")
-        .Internal(sink(file, FALSE, TRUE, FALSE))
-    }
-    else {
-        closeOnExit <- FALSE
-        if (is.null(file)) 
-            file <- -1L
-        else if (is.character(file)) {
-            file <- file(file, if (append) 
-                "a"
-            else "w")
-            closeOnExit <- TRUE
-        }
-        else if (!inherits(file, "connection")) 
-            stop("'file' must be NULL, a connection or a character string")
-        .Internal(sink(file, closeOnExit, FALSE, split))
-    }
-}
-<bytecode: 0x601472e179f8>
-<environment: namespace:base>
+Fit based upon off diagonal values = 0.89function 

@@ -3,59 +3,59 @@ Call: omegah(m = m, nfactors = nfactors, fm = fm, key = key, flip = flip,
     digits = digits, title = title, sl = sl, labels = labels, 
     plot = plot, n.obs = n.obs, rotate = rotate, Phi = Phi, option = option, 
     covar = covar)
-Alpha:                 0.58 
-G.6:                   0.71 
-Omega Hierarchical:    0.61 
-Omega H asymptotic:    1 
-Omega Total            0.62 
+Alpha:                 0.71 
+G.6:                   0.78 
+Omega Hierarchical:    0.66 
+Omega H asymptotic:    0.91 
+Omega Total            0.73 
 
 Schmid Leiman Factor loadings greater than  0.2 
         g  F1*   h2   h2   u2 p2 com
-X1   0.48      0.23 0.23 0.77  1   1
-X6   0.75      0.56 0.56 0.44  1   1
-X11                 0.00 1.00  1   1
-X16- 0.48      0.23 0.23 0.77  1   1
-X21  0.82      0.68 0.68 0.32  1   1
-X26  0.36           0.13 0.87  1   1
-X31-                0.00 1.00  1   1
-X36                 0.03 0.97  1   1
-X41                 0.03 0.97  1   1
-X46  0.43           0.19 0.81  1   1
-X51-                0.03 0.97  1   1
-X56-                0.00 1.00  1   1
+X4                  0.01 0.99  1   1
+X9   0.21           0.05 0.95  1   1
+X14  0.61      0.38 0.38 0.62  1   1
+X19  0.61      0.37 0.37 0.63  1   1
+X24                 0.01 0.99  1   1
+X29                 0.01 0.99  1   1
+X34  0.82      0.67 0.67 0.33  1   1
+X39  0.58      0.34 0.34 0.66  1   1
+X44  0.30           0.09 0.91  1   1
+X49- 0.44      0.20 0.20 0.80  1   1
+X54  0.64      0.40 0.40 0.60  1   1
+X59  0.27           0.07 0.93  1   1
 
 With Sums of squares  of:
-   g  F1*   h2 
-2.12 0.00 0.94 
+  g F1*  h2 
+2.6 0.0 1.1 
 
-general/max  2.26   max/min =   3.823719e+15
+general/max  2.44   max/min =   1.126288e+16
 mean percent general =  1    with sd =  0 and cv of  0 
 Explained Common Variance of the general factor =  1 
 
-The degrees of freedom are 54  and the fit is  2.13 
-The number of observations was  50  with Chi Square =  92.54  with prob <  0.00086
-The root mean square of the residuals is  0.17 
-The df corrected root mean square of the residuals is  0.19
-RMSEA index =  0.118  and the 90 % confidence intervals are  0.077 0.162
-BIC =  -118.7
+The degrees of freedom are 54  and the fit is  1.56 
+The number of observations was  50  with Chi Square =  67.82  with prob <  0.098
+The root mean square of the residuals is  0.13 
+The df corrected root mean square of the residuals is  0.14
+RMSEA index =  0.069  and the 90 % confidence intervals are  0 0.121
+BIC =  -143.43
 
 Compare this with the adequacy of just a general factor and no group factors
-The degrees of freedom for just the general factor are 54  and the fit is  2.13 
-The number of observations was  50  with Chi Square =  92.54  with prob <  0.00086
-The root mean square of the residuals is  0.17 
-The df corrected root mean square of the residuals is  0.19 
+The degrees of freedom for just the general factor are 54  and the fit is  1.56 
+The number of observations was  50  with Chi Square =  67.82  with prob <  0.098
+The root mean square of the residuals is  0.13 
+The df corrected root mean square of the residuals is  0.14 
 
-RMSEA index =  0.118  and the 90 % confidence intervals are  0.077 0.162
-BIC =  -118.7 
+RMSEA index =  0.069  and the 90 % confidence intervals are  0 0.121
+BIC =  -143.43 
 
 Measures of factor score adequacy             
                                                  g F1*
 Correlation of scores with factors            0.91   0
-Multiple R square of scores with factors      0.82   0
-Minimum correlation of factor score estimates 0.64  -1
+Multiple R square of scores with factors      0.84   0
+Minimum correlation of factor score estimates 0.67  -1
 
  Total, General and Subset omega for each subset
                                                  g  F1*
-Omega total for total scores and subscales    0.62 0.61
-Omega general for total scores and subscales  0.61 0.61
+Omega total for total scores and subscales    0.73 0.66
+Omega general for total scores and subscales  0.66 0.66
 Omega group for total scores and subscales    0.00 0.00

@@ -1,6 +1,6 @@
 # Load required libraries
 library(psych)
-library(ufs) # For scaleDiagnosis function
+library(ufs) 
 library(ggplot2)
 library(gridExtra)
 library(nortest)  # For Anderson-Darling test
@@ -24,22 +24,20 @@ if (length(args) == 0) {
   stop("Please provide the filename as a command-line argument.")
 }
 filename <- args[1]
+
 # Read the data
 data <- read.csv(paste0(filename, ".csv"), header = TRUE)
 
 # Extract just the item scores (excluding participant IDs)
 item_scores <- data[, -1]
-print(head(item_scores)) # Check the first few rows of item scores
-items <- colnames(item_scores)
-print(items) # Check the item names
 
+# --------------------- START OF ANALYSIS ---------------------
 
-# Print a line indicating the start of scale structure analysis
 cat("\n\n=== Scale Structure Analysis ===\n")
 results <- scaleStructure(
   data = item_scores,
-  digits = 3,          # Number of decimal places to display
-  ci = TRUE,           # Compute confidence intervals
+  digits = 3,         
+  ci = TRUE,          
   conf.level = 0.95,   # 95% confidence intervals
   omega.psych = TRUE,  # Include omega from psych package
   poly = TRUE          # Compute ordinal reliability estimates
@@ -62,11 +60,6 @@ sink(paste0(tools::file_path_sans_ext(basename(filename)), "_diagnosis.txt"), sp
 print(diagnosis)
 sink() # Properly close the sink
 
-# Save the scattermatrix plot separately
-ggsave(paste0(tools::file_path_sans_ext(basename(filename)), "_scattermatrix.png"), 
-  plot = diagnosis$scatterMatrix$output$scatterMatrix,
-  width = 10, height = 8, dpi = 300)
-
 # Print confirmation
 cat("\nAnalysis complete. Results saved to:\n")
 cat("- ", paste0(tools::file_path_sans_ext(basename(filename)), "_diagnosis.txt"), " (text summary)\n")
@@ -75,33 +68,40 @@ cat("- ", paste0(tools::file_path_sans_ext(basename(filename)), "_scattermatrix.
 cat("\n\n=== Omega Assessment using psych package directly ===\n")
 resultado_omega <- omega(item_scores, nfactors = 1, plot = TRUE)
 
-# 4. Exibir os resultados
+#Print the omega results to console
 print(resultado_omega)
 
-# 5. Salvar os resultados em um arquivo
-sink("resultados_omegaE.txt")
+# Save the omega results to a text file
+sink(paste0(tools::file_path_sans_ext(basename(filename)), "_omega_results.txt"))
 print(resultado_omega)
 sink()
 
-# 6. Salvar o gráfico do omega
-png("omega_plot.png", width = 800, height = 600)
+# Save the omega plot
+png(paste0(tools::file_path_sans_ext(basename(filename)), "_omega_plot.png"), width = 800, height = 600)
 omega(item_scores, nfactors = 1, plot = TRUE)
 dev.off()
 
-# Mensagem de confirmação
-cat("Análise concluída. Resultados salvos em:\n")
-cat("- Console (visualização imediata)\n")
-cat("- resultados_omega.txt (arquivo de texto)\n")
-cat("- omega_plot.png (gráfico do modelo omega)\n")
-
-all_scores <- unlist(data[, -1])
+# Print confirmation
+cat("Análise de Omega usando psych concluída.\n")
+all_scores <- unlist(data[, -1], use.names = FALSE)
 cat("\n\n=== Normality Assessment for ALL Participants Combined ===\n")
 result_all <- normalityAssessment(all_scores, samples = 10000, digits = 3)
+
+#Save normality plots
+png(paste0(tools::file_path_sans_ext(basename(filename)), "_normality_plots.png"), width = 10, height = 8, units = "in", res = 300)
+grid.arrange(
+  result_all$plot.sampleDist,
+  result_all$plot.samplingDist,
+  result_all$qqPlot.sampleDist,
+  result_all$qqPlot.samplingDist,
+  ncol = 2
+)
+dev.off()
 
 # Explicitly print results and plots
 print(result_all)  # Isso mostrará estatísticas + plots no console
 
 # Se quiser salvar também em arquivo (opcional)
-sink("Extraversion_NormalityResults.txt")
+sink(paste0(tools::file_path_sans_ext(basename(filename)), "_NormalityResults.txt"))
 print(result_all)
 sink()
