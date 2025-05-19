@@ -1,0 +1,109 @@
+Omega 
+Call: omegah(m = m, nfactors = nfactors, fm = fm, key = key, flip = flip, 
+    digits = digits, title = title, sl = sl, labels = labels, 
+    plot = plot, n.obs = n.obs, rotate = rotate, Phi = Phi, option = option, 
+    covar = covar)
+Alpha:                 0.87 
+G.6:                   0.98 
+Omega Hierarchical:    0.64 
+Omega H asymptotic:    0.7 
+Omega Total            0.92 
+
+Schmid Leiman Factor loadings greater than  0.2 
+         g   F1*   F2*   F3*   F4*   F5*    h2   h2   u2   p2  com
+X33-       -0.38       -0.22 -0.33        0.35 0.35 0.65 0.05 3.73
+X41   0.23                                     0.16 0.84 0.33 4.28
+X40         0.77                          0.64 0.64 0.36 0.02 1.08
+X1          0.45                          0.22 0.22 0.78 0.02 1.30
+X26   0.55  0.24  0.30       -0.25        0.52 0.52 0.48 0.58 2.60
+X16   0.30 -0.54        0.22        0.28  0.56 0.56 0.44 0.16 2.71
+X52-                         -0.38             0.17 0.83 0.04 1.40
+X48   0.57        0.26  0.22              0.47 0.47 0.53 0.69 1.96
+X46-       -0.54        0.20              0.36 0.36 0.64 0.00 1.52
+X42   0.31              0.41        0.21  0.32 0.32 0.68 0.30 2.51
+X27   0.33                                     0.18 0.82 0.60 2.45
+X59-  0.22                          0.47  0.34 0.34 0.66 0.15 2.26
+X47   0.66        0.34                    0.57 0.57 0.43 0.77 1.56
+X55   0.61        0.33                    0.51 0.51 0.49 0.74 1.68
+X34-  0.36              0.63              0.54 0.54 0.46 0.24 1.67
+X19-  0.30              0.62              0.51 0.51 0.49 0.17 1.66
+X5    0.23  0.23        0.27 -0.28        0.25 0.25 0.75 0.21 4.23
+X18   0.21                    0.34        0.21 0.21 0.79 0.21 2.47
+X56                    -0.35        0.25  0.24 0.24 0.76 0.07 3.05
+X43         0.79                          0.62 0.62 0.38 0.00 1.05
+X10                                 0.21       0.08 0.92 0.00 2.38
+X30   0.58        0.28                    0.46 0.46 0.54 0.75 1.69
+X54-  0.33              0.55              0.44 0.44 0.56 0.25 1.82
+X20         0.80                   -0.24  0.75 0.75 0.25 0.01 1.24
+X31   0.34                   -0.22  0.48  0.46 0.46 0.54 0.25 2.78
+X60-       -0.98                          0.96 0.96 0.04 0.00 1.01
+X36   0.68        0.37                    0.61 0.61 0.39 0.76 1.60
+X11   0.54        0.28                    0.41 0.41 0.59 0.71 1.89
+X25   0.63        0.31        0.31        0.61 0.61 0.39 0.64 2.12
+X8    0.33 -0.23        0.29              0.29 0.29 0.71 0.38 3.43
+X35-       -0.93                          0.86 0.86 0.14 0.01 1.07
+X21         0.76                          0.60 0.60 0.40 0.01 1.09
+X53         0.51                   -0.21  0.39 0.39 0.61 0.00 1.62
+X23   0.38                          0.39  0.38 0.38 0.62 0.37 3.28
+X50   0.37                    0.54        0.46 0.46 0.54 0.30 2.10
+X58   0.45              0.48              0.50 0.50 0.50 0.40 2.58
+X38         0.71                   -0.33  0.72 0.72 0.28 0.02 1.54
+X51   0.35 -0.23              0.21        0.26 0.26 0.74 0.46 3.42
+X17   0.65        0.32                    0.58 0.58 0.42 0.73 1.74
+X13         0.47        0.20       -0.31  0.41 0.41 0.59 0.05 2.61
+X4         -0.51                    0.34  0.46 0.46 0.54 0.00 1.96
+X9-         0.37              0.51        0.46 0.46 0.54 0.05 2.13
+X45   0.55        0.25        0.47        0.60 0.60 0.40 0.51 2.57
+X37   0.65        0.34                    0.56 0.56 0.44 0.76 1.62
+X57                                            0.05 0.95 0.42 3.34
+X3    0.25              0.23        0.33  0.25 0.25 0.75 0.26 3.13
+X15-       -0.92                          0.85 0.85 0.15 0.00 1.02
+X22   0.57        0.27                    0.43 0.43 0.57 0.76 1.64
+X14-  0.28              0.59        0.27  0.53 0.53 0.47 0.15 2.17
+X2          0.71                          0.53 0.53 0.47 0.01 1.11
+X44-        0.38              0.23        0.27 0.27 0.73 0.13 2.85
+X29-        0.41                          0.25 0.25 0.75 0.01 1.63
+X39-       -0.25        0.67       -0.22  0.58 0.58 0.42 0.01 1.58
+X12   0.45        0.22                    0.28 0.28 0.72 0.72 1.85
+X49   0.34 -0.20        0.24  0.21        0.27 0.27 0.73 0.43 3.56
+X28        -0.48        0.23              0.31 0.31 0.69 0.00 1.51
+X32   0.23                                     0.14 0.86 0.39 3.59
+X24-                               -0.48  0.28 0.28 0.72 0.06 1.40
+X6          0.81                          0.71 0.71 0.29 0.02 1.18
+X7    0.20 -0.57              0.31        0.44 0.44 0.56 0.09 1.93
+
+With Sums of squares  of:
+   g  F1*  F2*  F3*  F4*  F5*   h2 
+ 6.9 10.1  1.5  3.3  2.2  2.1 13.7 
+
+general/max  0.5   max/min =   9.16
+mean percent general =  0.27    with sd =  0.27 and cv of  1.01 
+Explained Common Variance of the general factor =  0.26 
+
+The degrees of freedom are 1480  and the fit is  264.25 
+The number of observations was  50  with Chi Square =  6562.14  with prob <  0
+The root mean square of the residuals is  0.08 
+The df corrected root mean square of the residuals is  0.09
+RMSEA index =  0.261  and the 90 % confidence intervals are  0.258 0.271
+BIC =  772.34
+
+Compare this with the adequacy of just a general factor and no group factors
+The degrees of freedom for just the general factor are 1710  and the fit is  284.1 
+The number of observations was  50  with Chi Square =  7812.63  with prob <  0
+The root mean square of the residuals is  0.2 
+The df corrected root mean square of the residuals is  0.2 
+
+RMSEA index =  0.266  and the 90 % confidence intervals are  0.264 0.276
+BIC =  1123.08 
+
+Measures of factor score adequacy             
+                                                 g  F1*   F2*  F3*  F4*  F5*
+Correlation of scores with factors            0.86 1.01  0.48 0.92 0.90 0.91
+Multiple R square of scores with factors      0.74 1.02  0.23 0.84 0.81 0.84
+Minimum correlation of factor score estimates 0.49 1.04 -0.55 0.68 0.61 0.67
+
+ Total, General and Subset omega for each subset
+                                                 g  F1*  F2*  F3*  F4*  F5*
+Omega total for total scores and subscales    0.92 0.34 0.88 0.74 0.49 0.38
+Omega general for total scores and subscales  0.64 0.24 0.70 0.25 0.32 0.18
+Omega group for total scores and subscales    0.09 0.10 0.18 0.49 0.17 0.20
