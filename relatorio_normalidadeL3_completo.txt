@@ -1,0 +1,100 @@
+RELATÓRIO COMPLETO DE ANÁLISE DE NORMALIDADE
+==================================================
+
+ANÁLISE GERAL (TODOS OS ITENS)
+
+=== Analisando normalidade: Todos os Itens ===
+Estatísticas descritivas:
+ - Média: 3.740
+ - Desvio padrão: 1.469
+ - Número de observações: 3000
+
+Testes estatísticos:
+ - Shapiro-Wilk: Estatística=0.773, p-valor=0.000
+ - Kolmogorov-Smirnov: Estatística=0.308, p-valor=0.000
+ - Anderson-Darling: Estatística=288.763
+   Valor crítico para 5%: 0.786
+
+Decisão final:
+Os dados de 'Todos os Itens' NÃO seguem uma distribuição normal.
+
+
+ANÁLISE POR DOMÍNIO
+
+=== Analisando normalidade: Domínio Extraversion ===
+Estatísticas descritivas:
+ - Média: 3.742
+ - Desvio padrão: 0.377
+ - Número de observações: 50
+
+Testes estatísticos:
+ - Shapiro-Wilk: Estatística=0.958, p-valor=0.075
+ - Kolmogorov-Smirnov: Estatística=0.134, p-valor=0.306
+ - Anderson-Darling: Estatística=0.744
+   Valor crítico para 5%: 0.736
+
+Decisão final:
+Os dados de 'Domínio Extraversion' NÃO seguem uma distribuição normal.
+
+=== Analisando normalidade: Domínio Agreeableness ===
+Estatísticas descritivas:
+ - Média: 4.302
+ - Desvio padrão: 0.618
+ - Número de observações: 50
+
+Testes estatísticos:
+ - Shapiro-Wilk: Estatística=0.900, p-valor=0.000
+ - Kolmogorov-Smirnov: Estatística=0.183, p-valor=0.063
+ - Anderson-Darling: Estatística=1.650
+   Valor crítico para 5%: 0.736
+
+Decisão final:
+Os dados de 'Domínio Agreeableness' NÃO seguem uma distribuição normal.
+
+=== Analisando normalidade: Domínio Conscientiousness ===
+Estatísticas descritivas:
+ - Média: 3.703
+ - Desvio padrão: 0.488
+ - Número de observações: 50
+
+Testes estatísticos:
+ - Shapiro-Wilk: Estatística=0.905, p-valor=0.001
+ - Kolmogorov-Smirnov: Estatística=0.162, p-valor=0.131
+ - Anderson-Darling: Estatística=1.610
+   Valor crítico para 5%: 0.736
+
+Decisão final:
+Os dados de 'Domínio Conscientiousness' NÃO seguem uma distribuição normal.
+
+=== Analisando normalidade: Domínio Negative_Emotionality ===
+Estatísticas descritivas:
+ - Média: 2.605
+ - Desvio padrão: 0.456
+ - Número de observações: 50
+
+Testes estatísticos:
+ - Shapiro-Wilk: Estatística=0.908, p-valor=0.001
+ - Kolmogorov-Smirnov: Estatística=0.154, p-valor=0.169
+ - Anderson-Darling: Estatística=1.561
+   Valor crítico para 5%: 0.736
+
+Decisão final:
+Os dados de 'Domínio Negative_Emotionality' NÃO seguem uma distribuição normal.
+
+=== Analisando normalidade: Domínio Open_Mindedness ===
+Estatísticas descritivas:
+ - Média: 4.350
+ - Desvio padrão: 0.597
+ - Número de observações: 50
+
+Testes estatísticos:
+ - Shapiro-Wilk: Estatística=0.898, p-valor=0.000
+ - Kolmogorov-Smirnov: Estatística=0.162, p-valor=0.129
+ - Anderson-Darling: Estatística=1.598
+   Valor crítico para 5%: 0.736
+
+Decisão final:
+Os dados de 'Domínio Open_Mindedness' NÃO seguem uma distribuição normal.
+
+==================================================
+Análise concluída com sucesso!
