@@ -1,0 +1,61 @@
+Omega 
+Call: omegah(m = m, nfactors = nfactors, fm = fm, key = key, flip = flip, 
+    digits = digits, title = title, sl = sl, labels = labels, 
+    plot = plot, n.obs = n.obs, rotate = rotate, Phi = Phi, option = option, 
+    covar = covar)
+Alpha:                 0.58 
+G.6:                   0.68 
+Omega Hierarchical:    0.59 
+Omega H asymptotic:    0.96 
+Omega Total            0.61 
+
+Schmid Leiman Factor loadings greater than  0.2 
+       g  F1*   h2   h2   u2 p2 com
+X1  0.51      0.26 0.26 0.74  1   1
+X6  0.69      0.47 0.47 0.53  1   1
+X11 0.45      0.20 0.20 0.80  1   1
+X16                0.01 0.99  1   1
+X21 0.67      0.45 0.45 0.55  1   1
+X26                0.01 0.99  1   1
+X31                0.00 1.00  1   1
+X36 0.20           0.04 0.96  1   1
+X41 0.61      0.37 0.37 0.63  1   1
+X46 0.41           0.17 0.83  1   1
+X51                0.00 1.00  1   1
+X56                0.01 0.99  1   1
+
+With Sums of squares  of:
+  g F1*  h2 
+2.0 0.0 0.7 
+
+general/max  2.84   max/min =   2.8885e+15
+mean percent general =  1    with sd =  0 and cv of  0 
+Explained Common Variance of the general factor =  1 
+
+The degrees of freedom are 54  and the fit is  1.56 
+The number of observations was  50  with Chi Square =  67.92  with prob <  0.097
+The root mean square of the residuals is  0.14 
+The df corrected root mean square of the residuals is  0.16
+RMSEA index =  0.069  and the 90 % confidence intervals are  0 0.122
+BIC =  -143.33
+
+Compare this with the adequacy of just a general factor and no group factors
+The degrees of freedom for just the general factor are 54  and the fit is  1.56 
+The number of observations was  50  with Chi Square =  67.92  with prob <  0.097
+The root mean square of the residuals is  0.14 
+The df corrected root mean square of the residuals is  0.16 
+
+RMSEA index =  0.069  and the 90 % confidence intervals are  0 0.122
+BIC =  -143.33 
+
+Measures of factor score adequacy             
+                                                 g F1*
+Correlation of scores with factors            0.87   0
+Multiple R square of scores with factors      0.76   0
+Minimum correlation of factor score estimates 0.52  -1
+
+ Total, General and Subset omega for each subset
+                                                 g  F1*
+Omega total for total scores and subscales    0.61 0.59
+Omega general for total scores and subscales  0.59 0.59
+Omega group for total scores and subscales    0.00 0.00

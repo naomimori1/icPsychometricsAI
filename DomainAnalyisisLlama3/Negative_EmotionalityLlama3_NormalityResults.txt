@@ -1,0 +1,23 @@
+## SAMPLE DISTRIBUTION ###
+Sample distribution of 600 observations
+Mean=2.605, median=2, SD=1.574, and therefore SE of the mean = 0.064
+
+Skewness (G1): 0.25  (se = 0.1, confidence interval = [0.054, 0.445], z = 2.5, p = .01)
+Kurtosis (G2): -1.59  (se = 0.2, confidence interval = [-2.0, -1.2], z = -8, p < .01)
+Hartigans' Dip Test: 0.13, p < .001
+
+Shapiro-Wilk: p=0 (W=0.801; based on 600 observations)
+Anderson-Darling: p=0 (A=48.827)
+Kolmogorov-Smirnof: p=0 (D=0.841)
+
+## SAMPLING DISTRIBUTION FOR THE MEAN ###
+Sampling distribution of 10000 samples of n=600
+Mean=2.605, median=2.605, SD=0.064
+
+Skewness (G1): 0.02  (se = 0.1, confidence interval = [-0.17,  0.22], z = 0.21, p = .83)
+Kurtosis (G2): -0.04  (se = 0.2, confidence interval = [-0.43,  0.35], z = -0.21, p = .83)
+Hartigans' Dip Test: 0.01, p = .01
+
+Shapiro-Wilk: p=0.076 (W=0.999; NOTE: based on the first 5000 of 10000 observations)
+Anderson-Darling: p=0.268 (A=0.455)
+Kolmogorov-Smirnof: p=0 (D=0.991)
