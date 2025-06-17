@@ -5,34 +5,43 @@ import random
 import sys
 import subprocess
 
-def inicializa(modelfile,jsonfile):
-    # Lê o conteúdo do modelfile (inclui a persona e config do modelo)
+def initialize(modelfile, jsonfile):
+    """
+    Reads the model configuration and questionnaire items.
+    Ensures the model is created if it does not exist.
+    Returns a shuffled list of BFI items.
+    """
+    # Read the model file (includes persona and model config)
     with open(modelfile, 'r') as f:
         model = f.readline().strip().split(sep=' ')[1]
         model_lines = set(f.read().splitlines()[1:])
 
+    # Output model details to a file
     with open("out.txt", "w") as f:
         subprocess.run(["ollama", "show", "--modelfile", model], stdout=f, check=True)
     
+    # Read the output file
     with open('out.txt', 'r') as f:
         out_lines = set(f.read().splitlines())
 
-    # Verifica se o modelo está presente no arquivo de saída
+    # Check if the model is present in the output file
     result = model_lines.issubset(out_lines)
 
-    # Cria o modelo, se não existir
-    if (not result):
+    # Create the model if it does not exist
+    if not result:
         subprocess.run(["ollama", "create", "llama3.1", "-f", "Modelfile"], check=True)
     
+    # Load the BFI questionnaire data
     with open(jsonfile, "r") as f:
         bfi_data = json.load(f)
 
-    # Extrair os itens do questionário
+    # Extract and shuffle the questionnaire items
     bfi_items = bfi_data["BFI-2"]["items"]
     random.shuffle(bfi_items)
 
     return bfi_items
 
+# Prompt template for the questionnaire (Based on prompt used in https://doi.org/10.48550/arXiv.2310.01386 )
 prompt_template = (
     "Here are a number of characteristics that may or may not apply to you. "
     "Please indicate the extent to which you agree or disagree with the following statement. "
@@ -43,10 +52,18 @@ prompt_template = (
 )
 
 def generate_prompt(item):
+    """
+    Formats the prompt for a given questionnaire item.
+    """
     return prompt_template.format(item=item)
 
 messages = []
+
 def query_model(prompt, messages):
+    """
+    Sends a prompt to the model and returns the response.
+    Maintains the conversation history in messages.
+    """
     messages.append({
         'role': 'user',
         'content': prompt,
@@ -54,7 +71,7 @@ def query_model(prompt, messages):
 
     response = ollama.chat(model='llama3.1', messages=messages)
 
-    # Adicionar a resposta do modelo ao histórico
+    # Add the model's response to the conversation history
     messages.append({
         'role': 'assistant',
         'content': response['message']['content'],
@@ -63,17 +80,21 @@ def query_model(prompt, messages):
     return response['message']['content']
 
 def main():
-    # Verifica se o número correto de argumentos foi fornecido
+    """
+    Main function to run the questionnaire, query the model, and save responses to a CSV file.
+    """
+    # Check if the correct number of arguments was provided
     if len(sys.argv) != 2:
-        print("Uso: python script.py <output_file>")
+        print("Usage: python script.py <output_file>")
         sys.exit(1)
 
     modelfile = "Modelfile"
     json_file = "bfi2facets.json"
-    bfi_items = inicializa(modelfile, json_file)
+    bfi_items = initialize(modelfile, json_file)
 
     output_file = sys.argv[1]
 
+    # Write responses to the output CSV file
     with open(output_file, mode="w", newline="") as file:
         writer = csv.writer(file)
         writer.writerow(["id", "statement", "facet", "reversed", "response"])
@@ -81,10 +102,10 @@ def main():
         for item in bfi_items:
             prompt = generate_prompt(item["statement"]) 
             response = query_model(prompt, messages) 
-            # Escrever os resultados no arquivo CSV
+            # Write the results to the CSV file
             writer.writerow([item["id"], item["statement"], item["facet"], item["reversed"], response])
 
-    print(f"Respostas salvas no arquivo {output_file}.")
+    print(f"Responses saved to file {output_file}.")
 
 if __name__ == "__main__":
     main()

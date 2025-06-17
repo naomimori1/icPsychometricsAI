@@ -1,0 +1,87 @@
+ BFI-2 Psychometrics AI
+----------------------------------------
+This project uses an LLM (via Ollama) to automatically answer the BFI-2 (Big Five Inventory) personality questionnaire. The code loads a custom model, presents each item to the model, and saves the responses to a CSV file. This code was tested and executed on a Linux machine.
+
+----------------------------------------
+ Requirements
+----------------------------------------
+- Python 3.8+
+- Ollama installed and running locally (https://ollama.com/)
+- llama3.1 model available in Ollama
+- The following files in the project directory:
+  - `testeInContext.py` (main script)
+  - `Modelfile` (Ollama model configuration)
+  - `bfi2facets.json` (questionnaire items)
+
+
+----------------------------------------
+File Descriptions
+----------------------------------------
+
+- testeInContext.py  
+  Main script to run the questionnaire and collect responses.
+- Modelfile  
+  Ollama model configuration, sets the system prompt and parameters.
+- bfi2facets.json  
+  JSON file containing all BFI-2 questionnaire items and metadata.
+
+
+----------------------------------------
+ How to Run
+----------------------------------------
+
+1. (Optional) Create a Python virtual environment  
+   If you want to isolate dependencies, create and activate a virtual environment:
+   
+   python3 -m venv venv
+   source venv/bin/activate
+   
+
+2. Install Python dependencies  
+   No external Python packages are required beyond the standard library and the `ollama` Python package.  
+   Install the `ollama` Python package if not already installed:
+   
+   pip install ollama
+   
+
+3. Start Ollama  
+   Make sure the Ollama server is running:
+   
+   ollama serve
+   
+ Ensure the llama3.1 model is available  
+   If not, pull it with:
+   
+   ollama pull llama3.1
+   
+
+4. Check/adjust the Modelfile  
+   The `Modelfile` should be present and configured as in your repository.
+
+5. Run the script  
+   Execute the script, specifying the output CSV file name:
+   
+   python3 testeInContext.py output.csv
+   
+
+   The script will:
+   - Check if the custom model exists (and create it if not)
+   - Shuffle and present all BFI-2 items to the model
+   - Save the model's responses to `output.csv`
+
+----------------------------------------
+Output
+----------------------------------------
+
+- The output CSV will contain the following columns:  
+  `id`, `statement`, `facet`, `reversed`, `response`
+
+----------------------------------------
+Some possible issues: 
+----------------------------------------
+
+- Error Handling:  The script assumes Ollama and the model are available and does not handle all possible errors.
+- Model Creation:  The script creates the model if not found, but the logic for checking model existence may need refinement for different Ollama versions.
+- Performance:  The script queries the model sequentially for each item, which may be slow.
+- Model Prompting:  The model is instructed to reply only with numbers 1-5, but additional validation of responses may be needed.
+- Dependencies:  If you use a virtual environment, remember to activate it before running the script.
