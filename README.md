@@ -24,6 +24,7 @@ Projeto de Iniciação Científica focado na aplicação de instrumentos psicom�
 - [Análises Estatísticas](#-análises-estatísticas)
 - [Resultados](#-resultados)
 - [Experimentos com Personas](#-experimentos-com-personas)
+- [Contribuindo](#-contribuindo)
 - [Citação](#-citação)
 - [Licença](#-licença)
 
@@ -69,3 +70,420 @@ Este projeto investiga se Large Language Models (LLMs) apresentam padrões consi
 FROM llama3.1
 PARAMETER temperature 0.02
 SYSTEM "You are a helpful assistant who can only reply with numbers from 1 to 5, and nothing else."
+```
+
+---
+
+## 📁 Estrutura do Repositório
+
+```
+icPsychometricsAI/
+├── 📄 bfi2facets.json           # 60 itens do questionário BFI-2
+├── 📄 Modelfile                 # Configuração do modelo Ollama
+│
+├── 🐍 Scripts de Coleta
+│   ├── testeInContext.py        # Teste COM contexto conversacional
+│   ├── testeNoContext.py        # Teste SEM contexto
+│   └── novoTesteInContext.py    # Abordagem experimental (batch)
+│
+├── 📊 Scripts de Análise
+│   ├── scores.py                # Cálculo de scores por domínio
+│   ├── combined_scores.py       # Análise de múltiplos testes
+│   ├── separadominio.py         # Separação por domínio
+│   ├── stat.py                  # Estatísticas descritivas
+│   ├── distNorm.py              # Análise de normalidade
+│   └── radar.py                 # Visualização em radar chart
+│
+├── 🔧 Utilitários
+│   ├── gather_responses.py      # Consolida respostas
+│   ├── juntacsv.py              # Une arquivos CSV
+│   ├── rodabfi.sh               # Executa bateria de testes BFI
+│   └── rodaufs.sh               # Executa testes UFS
+│
+├── 📈 Análises Estatísticas (R)
+│   ├── ufsAnalysis.r            # Análise psicométrica completa
+│   ├── DomainAnalysisR/         # Análises por domínio
+│   └── DomainAnalyisisLlama3/   # Análises específicas Llama3
+│
+├── 🎭 Experimentos
+│   └── WITH_PERSONA/            # Testes com diferentes personas
+│       ├── human/               # Persona humana genérica
+│       ├── man/                 # Persona masculina
+│       ├── woman/               # Persona feminina
+│       └── positive/            # Persona otimista
+│
+├── 💾 Dados
+│   ├── data/                    # Datasets organizados
+│   │   ├── Psycho50.csv         # 50 execuções completas
+│   │   ├── Extraversion.csv     # Dados por domínio
+│   │   └── ...
+│   └── scores/                  # Scores calculados
+│
+└── 📋 Outros
+    ├── matriz_correlacao.csv    # Matriz de correlação
+    ├── FirstPCA.txt             # Primeira análise PCA
+    ├── personas.txt             # Definições de personas
+    └── PROMPTtest/              # Testes de variação de prompt
+```
+
+---
+
+## 🚀 Instalação
+
+### Pré-requisitos
+
+- **Python 3.8+**
+- **Ollama** (para executar LLMs localmente)
+- **R 4.0+** (para análises estatísticas)
+
+### Passo 1: Clone o Repositório
+
+```bash
+git clone https://github.com/naomimori1/icPsychometricsAI.git
+cd icPsychometricsAI
+```
+
+### Passo 2: Instale Dependências Python
+
+```bash
+# Crie um ambiente virtual (recomendado)
+python3 -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+
+# Instale pacotes necessários
+pip install ollama pandas numpy matplotlib seaborn
+```
+
+### Passo 3: Configure o Ollama
+
+```bash
+# Instale o Ollama: https://ollama.com/
+
+# Inicie o servidor
+ollama serve
+
+# Baixe os modelos (em outro terminal)
+ollama pull llama3.1
+ollama pull llama2:7b  # Opcional
+```
+
+### Passo 4: Instale Pacotes R (Opcional)
+
+```r
+# No console R
+install.packages(c("psych", "lavaan", "ggplot2", "dplyr", "tidyr"))
+```
+
+---
+
+## 💻 Como Usar
+
+### Execução Básica
+
+#### 1. Aplicar o Questionário BFI-2
+
+```bash
+# Teste com contexto conversacional (recomendado)
+python3 testeInContext.py output.csv
+
+# Teste sem contexto
+python3 testeNoContext.py output_nocontext.csv
+```
+
+**Saída:** CSV com colunas `id`, `statement`, `facet`, `reversed`, `response`
+
+#### 2. Calcular Scores de Personalidade
+
+```bash
+python3 scores.py output.csv
+```
+
+**Saída no terminal:**
+```
+0  # Respostas inválidas
+Scores de cada domínio:
+BFI2_Extraversion: 3.25
+BFI2_Agreeableness: 4.08
+BFI2_Conscientiousness: 3.92
+BFI2_Neuroticism: 2.33
+BFI2_Openness: 4.17
+```
+
+#### 3. Análise de Múltiplos Testes
+
+```bash
+# Una múltiplos CSVs
+python3 juntacsv.py
+
+# Calcule scores combinados
+python3 combined_scores.py
+```
+
+#### 4. Separe por Domínio
+
+```bash
+python3 separadominio.py
+# Gera: Extraversion.csv, Agreeableness.csv, etc.
+```
+
+---
+
+## 📊 Scripts Principais
+
+### `testeInContext.py` ⭐
+
+**Funcionamento:**
+1. Verifica se o modelo customizado existe (cria se necessário)
+2. Carrega os 60 itens do BFI-2
+3. **Embaralha** os itens (evitar viés de ordem)
+4. Apresenta cada item ao modelo
+5. **Mantém histórico** de conversação
+6. Salva respostas em CSV
+
+**Prompt utilizado:**
+```
+Here are a number of characteristics that may or may not apply to you. 
+Please indicate the extent to which you agree or disagree with the following statement. 
+1 denotes 'strongly disagree', 2 denotes 'a little disagree', 3 denotes 'neither agree nor disagree', 
+4 denotes 'little agree', 5 denotes 'strongly agree'. 
+I am someone who: {item}
+Answer:
+```
+
+### `scores.py`
+
+**Cálculo de Scores:**
+- Aplica inversão em itens marcados como `reversed: true`
+- Calcula média por faceta (4 itens cada)
+- Calcula média por domínio (3 facetas cada)
+- Trata respostas inválidas substituindo por 3 (neutro)
+
+**Fórmula de Inversão:**
+```python
+reversed_score = 6 - original_score
+```
+
+### `separadominio.py`
+
+- Carrega `Psycho50.csv` e `bfi2facets.json`
+- Aplica reversão onde necessário
+- Cria 5 CSVs separados por domínio
+- Facilita análises estatísticas específicas
+
+---
+
+## 📈 Análises Estatísticas
+
+### Análises em Python
+
+#### Estatísticas Descritivas
+```bash
+python3 stat.py invalid_responses.json
+```
+
+**Métricas calculadas:**
+- Média de respostas inválidas
+- Mediana
+- Desvio padrão
+- Quartis (Q1, Q3)
+
+#### Distribuição Normal
+```bash
+python3 distNorm.py
+```
+
+#### Visualização Radar
+```bash
+python3 radar.py
+```
+
+### Análises em R
+
+#### Análise Psicométrica Completa
+
+```bash
+Rscript ufsAnalysis.r
+```
+
+**Inclui:**
+- **Alfa de Cronbach** (confiabilidade)
+- **Análise Fatorial Confirmatória** (CFA)
+- **Correlações entre domínios**
+- **Análise de Componentes Principais** (PCA)
+
+---
+
+## 🎭 Experimentos com Personas
+
+O diretório `WITH_PERSONA/` contém experimentos controlados com diferentes personas injetadas no prompt do sistema:
+
+### Personas Testadas
+
+| Persona | Descrição | Objetivo |
+|---------|-----------|----------|
+| `human/` | "Pretend you are a human" | Comportamento humano genérico |
+| `man/` | Persona masculina | Investigar viés de gênero |
+| `woman/` | Persona feminina | Investigar viés de gênero |
+| `positive/` | Persona otimista | Testar viés de positividade |
+| `humanNO/` | Sem instrução de simular humano | Baseline |
+
+### Executar com Persona
+
+```bash
+cd WITH_PERSONA/human
+python3 testeInContext.py output_human.csv
+python3 scores.py output_human.csv
+```
+
+---
+
+## 📊 Resultados
+
+### Dataset Principal
+
+- **`Psycho50.csv`**: 50 execuções completas do BFI-2
+- **`Llama3Psycho50.csv`**: Versão específica Llama 3.1
+
+### Arquivos de Análise
+
+- **`matriz_correlacao.csv`**: Matriz de correlação entre itens
+- **`FirstPCA.txt`**: Resultados da primeira análise PCA
+
+### Estrutura dos Dados
+
+**CSV de Respostas:**
+```csv
+id,statement,facet,reversed,response
+1,"Is outgoing, sociable.",Sociability,False,4
+16,"Tends to be quiet.",Sociability,True,2
+... 
+```
+
+**CSV de Scores por Domínio:**
+```csv
+teste,BFI2_Extraversion,BFI2_Agreeableness,BFI2_Conscientiousness,BFI2_Neuroticism,BFI2_Openness
+test1,3.25,4.08,3.92,2.33,4.17
+test2,3.42,3.92,4.00,2.50,4.25
+...
+```
+
+---
+
+## 🔄 Pipeline Completo
+
+```bash
+# 1. Execute 50 testes
+bash rodabfi.sh
+
+# 2. Consolide respostas
+python3 gather_responses.py
+
+# 3. Calcule scores
+python3 combined_scores.py
+
+# 4. Separe por domínio
+python3 separadominio.py
+
+# 5. Análise estatística em R
+Rscript ufsAnalysis.r
+
+# 6. Visualize resultados
+python3 radar.py
+```
+
+---
+
+## 🛠️ Solução de Problemas
+
+### Erro: "Model not found"
+
+```bash
+# Recrie o modelo customizado
+ollama create llama3.1 -f Modelfile
+```
+
+### Respostas Inválidas
+
+O script automaticamente:
+- Conta respostas inválidas
+- Substitui por 3 (neutro)
+- Registra no output
+
+### Ollama não conecta
+
+```bash
+# Verifique se o servidor está rodando
+ollama list
+
+# Reinicie o servidor
+pkill ollama
+ollama serve
+```
+
+---
+
+## 👥 Contribuindo
+
+Contribuições são bem-vindas! Por favor:
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaAnalise`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova análise estatística'`)
+4. Push para a branch (`git push origin feature/NovaAnalise`)
+5. Abra um Pull Request
+
+---
+
+## 📚 Citação
+
+Se você utilizar este projeto em sua pesquisa, por favor cite:
+
+```bibtex
+@software{icPsychometricsAI,
+  author = {naomimori1},
+  title = {icPsychometricsAI: Psychometric Evaluation of Large Language Models using BFI-2},
+  year = {2025},
+  publisher = {GitHub},
+  url = {https://github.com/naomimori1/icPsychometricsAI}
+}
+```
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins de pesquisa acadêmica com apoio do **Programa de Bolsas Itaú (PBI)**.
+
+---
+
+## 🙏 Agradecimentos
+
+- **Itaú Unibanco S.A.** pelo apoio através do Programa de Bolsas Itaú (PBI)
+- Comunidade **Ollama** pela infraestrutura de LLMs
+- Desenvolvedores do **BFI-2** (Soto & John, 2017)
+
+---
+
+## 📧 Contato
+
+Para dúvidas ou colaborações:
+- GitHub: [@naomimori1](https://github.com/naomimori1)
+- Issues: [Abra uma issue](https://github.com/naomimori1/icPsychometricsAI/issues)
+
+---
+
+## 🔗 Referências
+
+- Soto, C. J., & John, O. P. (2017). The Big Five Inventory-2 (BFI-2). *Journal of Personality Assessment*, 99(1), 1-27.
+- Ollama Documentation: https://ollama.com/
+- BFI-2 Official: https://www.colby.edu/psych/personality-lab/
+
+---
+
+<div align="center">
+
+**⭐ Se este projeto foi útil, considere dar uma estrela! ⭐**
+
+Made with ❤️ for AI Research
+
+</div>
