@@ -24,7 +24,6 @@ Projeto de Iniciação Científica focado na aplicação de instrumentos psicom�
 - [Análises Estatísticas](#-análises-estatísticas)
 - [Resultados](#-resultados)
 - [Experimentos com Personas](#-experimentos-com-personas)
-- [Contribuindo](#-contribuindo)
 - [Citação](#-citação)
 - [Licença](#-licença)
 
