@@ -1,4 +1,4 @@
-# icPsychometricsAI 🧠🤖
+# icPsychometricsAI - Psychometrics of AI
 
 [![Python](https://img.shields.io/badge/Python-79%25-blue.svg)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-19.2%25-276DC3.svg)](https://www.r-project.org/)
