@@ -5,6 +5,9 @@ import random
 import sys
 import subprocess
 
+# Model configuration
+MODEL_NAME = 'llama3.1'
+
 def initialize(modelfile, jsonfile):
     """
     Reads the model configuration and questionnaire items.
@@ -29,7 +32,7 @@ def initialize(modelfile, jsonfile):
 
     # Create the model if it does not exist
     if not result:
-        subprocess.run(["ollama", "create", "llama3.1", "-f", "Modelfile"], check=True)
+        subprocess.run(["ollama", "create", MODEL_NAME, "-f", "Modelfile"], check=True)
     
     # Load the BFI questionnaire data
     with open(jsonfile, "r") as f:
@@ -69,7 +72,7 @@ def query_model(prompt, messages):
         'content': prompt,
     })
 
-    response = ollama.chat(model='llama3.1', messages=messages)
+    response = ollama.chat(model=MODEL_NAME, messages=messages)
 
     # Add the model's response to the conversation history
     messages.append({

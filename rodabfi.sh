@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Número de vezes que o programa será executado
-n=10 # Defina o valor de n aqui
-ini=12
+n=1 # Defina o valor de n aqui
+ini=10
+
 # Caminho para o programa Python
 python_script="testeInContext.py"  # Substitua pelo nome do seu script Python
 
@@ -10,7 +11,7 @@ python_script="testeInContext.py"  # Substitua pelo nome do seu script Python
 for ((i=ini; i<n+ini; i++))
 do
     # Rodando o programa Python e redirecionando a saída para o arquivo arquivosaida{i}.csv
-    python3 $python_script "testePsycho$i.csv"
+    python3 $python_script "testePsycho2026$i.csv"
     
     # Opcional: Exibir mensagem indicando que a iteração foi concluída
     echo "Executado $((i-ini+1)) vez(es)"
