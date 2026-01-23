@@ -9,7 +9,7 @@
 
 Projeto de Iniciação Científica focado na aplicação de instrumentos psicométricos validados (BFI-2) a Large Language Models (LLMs) para investigar traços de personalidade simulados e consistência comportamental em sistemas de IA.
 
-**Este trabalho foi realizado com o apoio do Itaú Unibanco S.A., por meio do Programa de Bolsas Itaú (PBI).**
+**Este trabalho foi realizado para fins de pesquisa acadêmica com o apoio do Itaú Unibanco S.A., por meio do Programa de Bolsas Itaú (PBI).**
 
 ---
 
@@ -422,16 +422,10 @@ ollama serve
 
 ---
 
-Este projeto foi desenvolvido para fins de pesquisa acadêmica com apoio do **Programa de Bolsas Itaú (PBI)**.
-
----
-
 ## Agradecimentos
 
 - **Itaú Unibanco S.A.** pelo apoio através do Programa de Bolsas Itaú (PBI)
 - Comunidade **Ollama** pela infraestrutura de LLMs
-- Desenvolvedores do **BFI-2** (Soto & John, 2017)
-
 ---
 
 ## Contato
