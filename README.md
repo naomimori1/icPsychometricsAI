@@ -359,20 +359,12 @@ id,statement,facet,reversed,response
 ... 
 ```
 
-**CSV de Scores por Domínio:**
-```csv
-teste,BFI2_Extraversion,BFI2_Agreeableness,BFI2_Conscientiousness,BFI2_Neuroticism,BFI2_Openness
-test1,3.25,4.08,3.92,2.33,4.17
-test2,3.42,3.92,4.00,2.50,4.25
-...
-```
-
 ---
 
 ## 🔄 Pipeline Completo
 
 ```bash
-# 1. Execute 50 testes
+# 1. Execute N testes
 bash rodabfi.sh
 
 # 2. Consolide respostas
