@@ -422,41 +422,11 @@ ollama serve
 
 ---
 
-## 👥 Contribuindo
-
-Contribuições são bem-vindas! Por favor:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/NovaAnalise`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova análise estatística'`)
-4. Push para a branch (`git push origin feature/NovaAnalise`)
-5. Abra um Pull Request
-
----
-
-## 📚 Citação
-
-Se você utilizar este projeto em sua pesquisa, por favor cite:
-
-```bibtex
-@software{icPsychometricsAI,
-  author = {naomimori1},
-  title = {icPsychometricsAI: Psychometric Evaluation of Large Language Models using BFI-2},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/naomimori1/icPsychometricsAI}
-}
-```
-
----
-
-## 📄 Licença
-
 Este projeto foi desenvolvido para fins de pesquisa acadêmica com apoio do **Programa de Bolsas Itaú (PBI)**.
 
 ---
 
-## 🙏 Agradecimentos
+## Agradecimentos
 
 - **Itaú Unibanco S.A.** pelo apoio através do Programa de Bolsas Itaú (PBI)
 - Comunidade **Ollama** pela infraestrutura de LLMs
@@ -464,7 +434,7 @@ Este projeto foi desenvolvido para fins de pesquisa acadêmica com apoio do **Pr
 
 ---
 
-## 📧 Contato
+## Contato
 
 Para dúvidas ou colaborações:
 - GitHub: [@naomimori1](https://github.com/naomimori1)
@@ -477,13 +447,14 @@ Para dúvidas ou colaborações:
 - Soto, C. J., & John, O. P. (2017). The Big Five Inventory-2 (BFI-2). *Journal of Personality Assessment*, 99(1), 1-27.
 - Ollama Documentation: https://ollama.com/
 - BFI-2 Official: https://www.colby.edu/psych/personality-lab/
-
----
-
-<div align="center">
-
-**⭐ Se este projeto foi útil, considere dar uma estrela! ⭐**
-
-Made with ❤️ for AI Research
-
-</div>
+- Pellert, M., Lechner, C. M., Wagner, C., Rammstedt, B., & Strohmaier, M. (2024). AI Psychometrics: Assessing the Psychological Profiles of Large Language Models Through Psychometric Inventories. Perspectives on Psychological Science, 0(0). https://doi.org/10.1177/17456916231214460
+-  Sühr, T, Dorner, F. E., Samadi, S., Kelava, A. : Challenging the Validity of Personality Tests for Large Language Models, arXiv preprint arXiv:2311.05297v2, 2024
+- Mustafa Safdari, Greg Serapio-García, Clément Crepy, Stephen Fitz, Peter Romero, Luning
+Sun, Marwa Abdulhai, Aleksandra Faust, and Maja Matari´c. Personality traits in large language
+models. arXiv preprint arXiv:2307.00184, 2023
+- Soto, C. J., & John, O. P. (2017). The next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power. Journal of Personality and Social Psychology, 113, 117-143
+- Zhang, Saizheng, Emily Dinan, Jack Urbanek, Arthur Szlam, Douwe Kiela and Jason Weston. “Personalizing Dialogue Agents: I have a dog, do you have pets too?” https://arxiv.org/abs/1801.07243
+- Bodroža, Bojana, Bojana M. Dinić, and Ljubiša Bojić. "Personality testing of large language models: limited temporal stability, but highlighted prosociality." Royal Society Open Science 11, no. 10 (2024): 240180. https://doi.org/10.48550/arXiv.2306.04308
+- Huang, J., Wang, W., Li, E.J., Lam, M.H., Ren, S., Yuan, Y., Jiao, W., Tu, Z., & Lyu, M.R. (2023). Who is ChatGPT? Benchmarking LLMs' Psychological Portrayal Using PsychoBench. ArXiv, abs/2310.01386.
+- Dunn, T. J., Baguley, T., & Brunsden, V. (2014). From alpha to omega: a practical solution to the pervasive problem of internal consistency estimation. British journal of psychology (London, England : 1953), 105(3), 399–412. https://doi.org/10.1111/bjop.12046
+- Revelle, William & Zinbarg, Richard. (2009). Coefficients Alpha, Beta, Omega, and the GLB: Comments on Sijtsma. Psychometrika. 74. 145-154. 10.1007/s11336-008-9102-z.
